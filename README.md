@@ -11,14 +11,14 @@ npm install
 npm run dev
 ```
 
-Open the URL printed by Vite. Build using `npm run build`; output is `dist/`. `npm run preview` serves the production build. `npm test` validates content coverage, search behavior, source traceability, and review metadata.
+Open the URL printed by Vite. Build using `npm run build`; output is `dist/`. `npm run preview` serves the production build. `npm test` validates content coverage, source traceability, and review metadata.
 
 ## MVP behavior
 
 - Six topic categories; Stress and Sleep switch between loved-one and caregiver perspectives.
-- Native keyboard-accessible FAQ accordions, live search of questions and answers across every topic, empty states, and a clear return path.
+- Direct topic browsing, native keyboard-accessible FAQ accordions, empty states, and a clear return path. Search has been removed to simplify navigation.
 - A− / A+ adjust the root text size from 18 to 24px. Browser zoom remains available.
-- Responsive layouts, visible focus rings, labeled search, a skip link, and 44px primary touch targets.
+- Responsive layouts, visible focus rings, a skip link, and 44px primary touch targets.
 - Topic/perspective URLs use hash routing, including browser Back/Forward and refresh.
 - About and medical disclaimer sections; no institutional endorsement.
 

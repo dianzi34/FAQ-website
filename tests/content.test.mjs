@@ -1,7 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {searchFaqs} from '../src/search.js';
 const faqs=JSON.parse(readFileSync(new URL('../src/data/faqs.json',import.meta.url)));
 test('six categories, unique IDs and questions, complete draft metadata',()=>{
  assert.equal(new Set(faqs.map(f=>f.category)).size,6);
@@ -16,11 +15,4 @@ test('all 44 supplied rows remain traceable exactly once',()=>{
 test('12 required new drafts cover both audiences in priority topics',()=>{
  const drafts=faqs.filter(f=>f.origin==='new_draft');assert.equal(drafts.length,12);
  for(const category of ['Stress Management','Sleep Management'])for(const audience of ['caregiver','care_recipient'])assert.equal(drafts.filter(f=>f.category===category&&f.audience===audience).length,3);
-});
-test('search covers answer text, casing, multiple terms, empty and unmatched queries',()=>{
- assert.deepEqual(searchFaqs(faqs,'SLEEP'),searchFaqs(faqs,'sleep'));
- assert.ok(searchFaqs(faqs,'night lighting').length>0);
- assert.ok(searchFaqs(faqs,'pharmacist').some(f=>f.id==='faq-18'));
- assert.equal(searchFaqs(faqs,'  ').length,faqs.length);
- assert.equal(searchFaqs(faqs,'xyzunmatched987').length,0);
 });

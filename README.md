@@ -1,4 +1,4 @@
-# Care Together
+# Caregiving FAQs
 
 An accessible English-language caregiving FAQ MVP, implemented from `faq_prd.pdf` and the supplied NEU FAQ table. React + Vite + plain CSS, entirely static. No accounts, backend, database, tracking, or API calls in core interactions.
 

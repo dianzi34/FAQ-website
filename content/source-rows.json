@@ -1,0 +1,266 @@
+[
+  {
+    "sourceRow": 1,
+    "category": "Communication",
+    "question": "How can I improve communication with my loved one?",
+    "answer": "Set a positive mood, use simple words, and speak clearly. Keep distractions to a minimum and use body language or touch to help convey your message."
+  },
+  {
+    "sourceRow": 2,
+    "category": "Communication",
+    "question": "What should I do if my loved one doesn’t understand me?",
+    "answer": "Repeat your message using the same words. If they still don’t understand, wait a few minutes and rephrase it."
+  },
+  {
+    "sourceRow": 3,
+    "category": "Communication",
+    "question": "How can I ask questions to avoid confusion?",
+    "answer": "Ask one question at a time with simple, answerable options. Yes or no questions or giving two choices is often best."
+  },
+  {
+    "sourceRow": 4,
+    "category": "Communication",
+    "question": "What should I do if my loved one gets agitated or confused?",
+    "answer": "Give them space, reassure them, and distract them with a simple activity like looking at a photo album. Try to maintain a calm environment."
+  },
+  {
+    "sourceRow": 5,
+    "category": "Behavior Management",
+    "question": "How can I get my loved one to shower or change clothes when they refuse?",
+    "answer": "Keep a routine and create a calm environment. Turn off distractions and be patient. If they are agitated, try again later."
+  },
+  {
+    "sourceRow": 6,
+    "category": "Behavior Management",
+    "question": "What should I do if my loved one refuses to leave the home?",
+    "answer": "Take it slow, one step at a time (e.g., put on shoes, then a coat). Don’t mention stressful destinations; instead, focus on a positive activity they enjoy."
+  },
+  {
+    "sourceRow": 7,
+    "category": "Behavior Management",
+    "question": "How can I deal with agitation in my loved one?",
+    "answer": "Reduce noise and clutter, maintain routines, and use gentle reassurance. Distract them with activities or food if they seem upset."
+  },
+  {
+    "sourceRow": 8,
+    "category": "Behavior Management",
+    "question": "What can I do if my loved one starts wandering?",
+    "answer": "Ensure regular exercise and consider installing locks or using monitoring devices. Inform neighbors and ensure your loved one wears an ID bracelet."
+  },
+  {
+    "sourceRow": 9,
+    "category": "Behavior Management",
+    "question": "How can I manage repetitive questions or actions?",
+    "answer": "Stay patient and offer reassurance. Try distracting them with another activity or placing visual reminders around the house."
+  },
+  {
+    "sourceRow": 10,
+    "category": "Behavior Management",
+    "question": "How can I help my loved one manage changes in behavior?",
+    "answer": "Respect their space and keep familiar objects around. Build quiet times into the day to reduce stress and anxiety."
+  },
+  {
+    "sourceRow": 11,
+    "category": "Behavior Management",
+    "question": "What should I do if my loved one struggles with personal tasks like dressing or bathing?",
+    "answer": "Maintain a routine and allow them to do as much as possible. Use gentle guidance and safety aids like a shower chair or easy-to-use clothing."
+  },
+  {
+    "sourceRow": 12,
+    "category": "Stress Management",
+    "question": "How can I help my loved one with bathing?",
+    "answer": "Stick to their old routine (shower or bath) and maintain their modesty by covering them with a towel. Use safety features like non-slip mats and never leave them alone in the tub."
+  },
+  {
+    "sourceRow": 13,
+    "category": "Stress Management",
+    "question": "How can I help my loved one with dressing?",
+    "answer": "Choose simple, comfortable clothes with minimal buttons or zippers. Lay out one item at a time and assist where needed."
+  },
+  {
+    "sourceRow": 14,
+    "category": "Stress Management",
+    "question": "What should I do if my loved one has incontinence?",
+    "answer": "Establish a routine for bathroom use and remind them to go regularly. Use incontinence products, easy-to-remove clothing, and ensure signs point them to the bathroom."
+  },
+  {
+    "sourceRow": 15,
+    "category": "Stress Management",
+    "question": "How can I help my loved one with daily tasks?",
+    "answer": "Stick to a daily routine and allow them to help with simple tasks. Write down to-do lists and use reminders for important activities."
+  },
+  {
+    "sourceRow": 16,
+    "category": "Stress Management",
+    "question": "What can I do to help my loved one eat well?",
+    "answer": "Serve meals at the same time every day in a familiar place. Offer smaller, easy-to-eat portions and give them plenty of time to finish their food."
+  },
+  {
+    "sourceRow": 17,
+    "category": "Stress Management",
+    "question": "How fast does Alzheimer’s disease progress?",
+    "answer": "Alzheimer’s progresses in three stages: early (memory loss), middle (safety concerns), and late (difficulty with daily tasks). Care needs will increase over time."
+  },
+  {
+    "sourceRow": 18,
+    "category": "Stress Management",
+    "question": "How can I help my loved one remember to take medications or attend appointments?",
+    "answer": "Use a notebook or calendar for reminders, and help them create a routine for daily tasks and medications."
+  },
+  {
+    "sourceRow": 19,
+    "category": "Safety",
+    "question": "How can I prevent my loved one from falling?",
+    "answer": "Install grab bars, use non-slip mats, and ensure rooms are well-lit. Keep dangerous objects out of reach and ensure their surroundings are safe."
+  },
+  {
+    "sourceRow": 20,
+    "category": "Safety",
+    "question": "What should I do if my loved one becomes paranoid or sees things that aren’t there?",
+    "answer": "Remain calm and avoid arguing. Reassure them and offer simple explanations or distractions."
+  },
+  {
+    "sourceRow": 21,
+    "category": "Safety",
+    "question": "How can I make the home safer for my loved one?",
+    "answer": "Install handrails, remove tripping hazards, and keep rooms well-lit. Use safety plugs and lock up dangerous household items."
+  },
+  {
+    "sourceRow": 22,
+    "category": "Safety",
+    "question": "What steps can I take to prevent accidents?",
+    "answer": "Use a sturdy shower chair and install grab bars in the bathroom. Make sure all staircases have proper handrails."
+  },
+  {
+    "sourceRow": 23,
+    "category": "Safety",
+    "question": "What should I do if my loved one wants to keep driving?",
+    "answer": "In the middle and late stages of dementia, driving isn’t safe. Try talking with them about your concerns or ask a doctor to help. If needed, hide the car keys or move the car out of sight."
+  },
+  {
+    "sourceRow": 24,
+    "category": "Health and Nutrition",
+    "question": "How can I ensure my loved one eats well?",
+    "answer": "Stick to a regular meal schedule and offer small, frequent meals. Make mealtimes special with soft music and try using finger foods for easy eating."
+  },
+  {
+    "sourceRow": 25,
+    "category": "Health and Nutrition",
+    "question": "What should I do if my loved one has trouble swallowing?",
+    "answer": "Use soft foods or cut them into small pieces. Encourage swallowing by gently moving their chin or stroking their throat."
+  },
+  {
+    "sourceRow": 26,
+    "category": "Health and Nutrition",
+    "question": "How can I encourage my loved one to stay active?",
+    "answer": "Encourage simple activities like walking, light household chores, or dancing to music. Join them to make the activity more enjoyable."
+  },
+  {
+    "sourceRow": 27,
+    "category": "Health and Nutrition",
+    "question": "How do I ensure my loved one is eating healthily?",
+    "answer": "Offer easy-to-prepare, nutritious food options. Let them choose between a couple of healthy meals."
+  },
+  {
+    "sourceRow": 28,
+    "category": "Sleep Issues",
+    "question": "Why does my loved one become more restless in the evening?",
+    "answer": "This is known as sundowning, often caused by exhaustion or confusion over day and night. Encourage physical activity during the day and keep the evening calm and quiet."
+  },
+  {
+    "sourceRow": 29,
+    "category": "Sleep Issues",
+    "question": "How can I help my loved one sleep better at night?",
+    "answer": "Maintain a routine, limit naps during the day, and avoid caffeine or sugary foods. Ensure the room is dark and safe for them to sleep."
+  },
+  {
+    "sourceRow": 30,
+    "category": "Sleep Issues",
+    "question": "What can I do if my loved one has trouble sleeping?",
+    "answer": "Encourage physical activity during the day and keep the evenings calm. Make sure the bedroom is safe and comfortable with nightlights if needed."
+  },
+  {
+    "sourceRow": 31,
+    "category": "Caregiver Support",
+    "question": "How can I take care of myself while caring for someone with dementia?",
+    "answer": "Ask for help when needed, take breaks, and maintain hobbies. Join a support group to connect with other caregivers and share experiences."
+  },
+  {
+    "sourceRow": 32,
+    "category": "Caregiver Support",
+    "question": "What should I do if I feel overwhelmed as a caregiver?",
+    "answer": "Talk to friends or professionals, practice meditation, and get regular exercise. Don’t hesitate to seek mental health support if you need it."
+  },
+  {
+    "sourceRow": 33,
+    "category": "Caregiver Support",
+    "question": "How do I know when it’s time to get help or place my loved one in a care facility?",
+    "answer": "If caregiving is too stressful or overwhelming, ask for help. Temporary respite services are available, and you can consult a care navigator for long-term care options."
+  },
+  {
+    "sourceRow": 34,
+    "category": "Caregiver Support",
+    "question": "I’m overwhelmed and exhausted. How can I get a break from caregiving?",
+    "answer": "Ask family or friends for help. Consider respite care, which provides short-term relief and allows you to rest or attend to personal matters."
+  },
+  {
+    "sourceRow": 35,
+    "category": "Caregiver Support",
+    "question": "Why should I build a support network for caregiving?",
+    "answer": "Having a broader network, including family, friends, doctors, and support groups, helps reduce stress and provides emotional and practical support for both you and your loved one."
+  },
+  {
+    "sourceRow": 36,
+    "category": "Caregiver Support",
+    "question": "Where can I find support groups for Alzheimer’s caregivers?",
+    "answer": "Organizations like the Alzheimer’s Association and Family Caregiver Alliance can help you find both in-person and online support groups."
+  },
+  {
+    "sourceRow": 37,
+    "category": "Caregiver Support",
+    "question": "How can I take care of myself while caregiving?",
+    "answer": "Focus on your well-being by maintaining healthy habits like eating well, exercising, and staying connected with friends and family. Taking breaks and practicing self-care is essential to being an effective caregiver."
+  },
+  {
+    "sourceRow": 38,
+    "category": "Caregiver Support",
+    "question": "What is respite care, and how can it help me?",
+    "answer": "Respite care provides temporary relief by allowing someone else to take over caregiving duties for a few hours, days, or even weeks. This helps caregivers rest and recharge, improving their ability to care."
+  },
+  {
+    "sourceRow": 39,
+    "category": "Planning for the Future",
+    "question": "How can I prepare for future healthcare decisions for my loved one?",
+    "answer": "Start discussions early to involve them in decision-making. Make sure you have permission to talk to their doctor or lawyer about important care matters."
+  },
+  {
+    "sourceRow": 40,
+    "category": "Planning for the Future",
+    "question": "What legal matters should I consider as the disease progresses?",
+    "answer": "Plan ahead for legal and financial matters, in-home care, and long-term care. Understanding the disease will help you prepare for future decisions."
+  },
+  {
+    "sourceRow": 41,
+    "category": "Planning for the Future",
+    "question": "How do I help an older adult plan for the future?",
+    "answer": "Help them prepare legal documents like advance directives to ensure their medical wishes are known in case they can’t communicate."
+  },
+  {
+    "sourceRow": 42,
+    "category": "Planning for the Future",
+    "question": "How can I talk to my loved one about their care preferences?",
+    "answer": "It’s important to start conversations early. Ask about their preferences for home care, medical treatment, and end-of-life wishes, and involve them in decision-making."
+  },
+  {
+    "sourceRow": 43,
+    "category": "Planning for the Future",
+    "question": "How do I prepare for future legal and financial matters?",
+    "answer": "Involve a lawyer to handle discussions around finances, assets, and legal documents such as advance directives and power of attorney. Planning early helps ensure your loved one’s wishes are respected."
+  },
+  {
+    "sourceRow": 44,
+    "category": "Planning for the Future",
+    "question": "What should I consider when planning for future care?",
+    "answer": "Discuss future care options, including home care or potential long-term care facilities, and involve your loved one in decision-making while they are still able to participate."
+  }
+]

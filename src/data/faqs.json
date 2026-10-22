@@ -1,0 +1,877 @@
+[
+  {
+    "id": "faq-01",
+    "category": "Communication",
+    "audience": "care_recipient",
+    "question": "How can I improve communication with my loved one?",
+    "steps": [
+      "Set a positive mood, use simple words, and speak clearly.",
+      "Keep distractions to a minimum and use body language or touch to help convey your message."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      1
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-02",
+    "category": "Communication",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one doesn’t understand me?",
+    "steps": [
+      "Repeat your message using the same words.",
+      "If they still don’t understand, wait a few minutes and rephrase it."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      2
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-03",
+    "category": "Communication",
+    "audience": "care_recipient",
+    "question": "How can I ask questions to avoid confusion?",
+    "steps": [
+      "Ask one question at a time with simple, answerable options.",
+      "Yes or no questions or giving two choices is often best."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      3
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-04",
+    "category": "Stress Management",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one gets agitated or confused?",
+    "steps": [
+      "Give them space, reassure them, and distract them with a simple activity like looking at a photo album.",
+      "Try to maintain a calm environment."
+    ],
+    "note": "",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      4,
+      7
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-05",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "How can I get my loved one to shower or change clothes when they refuse?",
+    "steps": [
+      "Keep a routine and create a calm environment.",
+      "Turn off distractions and be patient.",
+      "If they are agitated, try again later."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      5
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-06",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one refuses to leave the home?",
+    "steps": [
+      "Break getting ready into small steps, such as putting on shoes, then a coat.",
+      "Explain the outing simply and reassuringly. Allow time, and avoid pressure."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      6
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Removed suggestion to conceal a stressful destination."
+  },
+  {
+    "id": "faq-08",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What can I do if my loved one starts wandering?",
+    "steps": [
+      "Stay with your loved one and offer a familiar, safe activity.",
+      "Plan supervision, identification, and door alerts; keep emergency exits usable.",
+      "If your loved one is missing, call 911 and explain that they have dementia."
+    ],
+    "note": "Never lock a person alone inside a home. Monitoring devices cannot replace supervision.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/wandering",
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      8
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Replaced ambiguous locking advice; added missing-person response."
+  },
+  {
+    "id": "faq-09",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "How can I manage repetitive questions or actions?",
+    "steps": [
+      "Stay patient and offer reassurance.",
+      "Try distracting them with another activity or placing visual reminders around the house."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      9
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-10",
+    "category": "Stress Management",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one manage changes in behavior?",
+    "steps": [
+      "Respect their space and keep familiar objects around.",
+      "Build quiet times into the day to reduce stress and anxiety."
+    ],
+    "note": "",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      10
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-11",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one struggles with personal tasks like dressing or bathing?",
+    "steps": [
+      "Maintain a routine and allow them to do as much as possible.",
+      "Use gentle guidance and safety aids like a shower chair or easy-to-use clothing."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      11
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-12",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one with bathing?",
+    "steps": [
+      "Stick to their old routine (shower or bath) and maintain their modesty by covering them with a towel.",
+      "Use safety features like non-slip mats and never leave them alone in the tub."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      12
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-13",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one with dressing?",
+    "steps": [
+      "Choose simple, comfortable clothes with minimal buttons or zippers.",
+      "Lay out one item at a time and assist where needed."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      13
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-14",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one has incontinence?",
+    "steps": [
+      "Establish a routine for bathroom use and remind them to go regularly.",
+      "Use incontinence products, easy-to-remove clothing, and ensure signs point them to the bathroom."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      14
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-15",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one with daily tasks?",
+    "steps": [
+      "Stick to a daily routine and allow them to help with simple tasks.",
+      "Write down to-do lists and use reminders for important activities."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      15
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-16",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What can I do to help my loved one eat well?",
+    "steps": [
+      "Offer meals at regular times in a familiar, calm place.",
+      "Serve manageable portions and allow plenty of time to eat.",
+      "Offer choices between nutritious foods they enjoy."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      16,
+      24
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-17",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How fast does Alzheimer’s disease progress?",
+    "steps": [
+      "Ask their healthcare professional about changes and what support may be needed next.",
+      "Plan for increasing help with daily activities over time."
+    ],
+    "note": "Progression varies from person to person. A stage label cannot predict an individual timeline.",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      17
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Original answer did not answer speed and oversimplified stages."
+  },
+  {
+    "id": "faq-18",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one remember to take medications or attend appointments?",
+    "steps": [
+      "Keep appointments on a shared calendar or notebook.",
+      "Ask a pharmacist or healthcare professional to help make a safe medication routine.",
+      "Arrange supervision if reminders alone are not enough."
+    ],
+    "note": "Do not change medicines or doses without professional advice.",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      18
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Calendar reminders alone may not be sufficient for medication safety."
+  },
+  {
+    "id": "faq-19",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How can I prevent my loved one from falling?",
+    "steps": [
+      "Install grab bars, use non-slip mats, and ensure rooms are well-lit.",
+      "Keep dangerous objects out of reach and ensure their surroundings are safe."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      19
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-20",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one becomes paranoid or sees things that aren’t there?",
+    "steps": [
+      "Stay calm, acknowledge their feelings, and avoid arguing about what they see.",
+      "Check whether lighting or noise is confusing them.",
+      "Contact their healthcare professional about new or worsening symptoms."
+    ],
+    "note": "Sudden confusion needs prompt medical assessment.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      20
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Added assessment for new hallucinations or sudden changes."
+  },
+  {
+    "id": "faq-21",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How can I make the home safer for my loved one?",
+    "steps": [
+      "Install handrails, remove tripping hazards, and keep rooms well-lit.",
+      "Use safety plugs and lock up dangerous household items."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      21
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-22",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What steps can I take to prevent accidents?",
+    "steps": [
+      "Use a sturdy shower chair and install grab bars in the bathroom.",
+      "Make sure all staircases have proper handrails."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      22
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-23",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one wants to keep driving?",
+    "steps": [
+      "Discuss driving concerns early with your loved one and their healthcare professional.",
+      "Ask about a driving assessment and arrange reliable alternative transport.",
+      "If driving is unsafe, prevent access to the car while arranging help."
+    ],
+    "note": "Safety cannot be decided by a disease stage alone.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/safety/dementia-driving",
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      23
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Removed implication that early-stage driving is always safe."
+  },
+  {
+    "id": "faq-25",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one has trouble swallowing?",
+    "steps": [
+      "Contact their healthcare professional for a swallowing assessment.",
+      "Follow an individualized eating and drinking plan from a qualified clinician."
+    ],
+    "note": "Do not move their chin or stroke their throat to trigger swallowing. If they cannot breathe or are choking, call 911.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage",
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      25
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Removed manual swallowing maneuvers and blanket food-texture advice."
+  },
+  {
+    "id": "faq-26",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How can I encourage my loved one to stay active?",
+    "steps": [
+      "Encourage simple activities like walking, light household chores, or dancing to music.",
+      "Join them to make the activity more enjoyable."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      26
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-27",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How do I ensure my loved one is eating healthily?",
+    "steps": [
+      "Offer easy-to-prepare, nutritious food options.",
+      "Let them choose between a couple of healthy meals."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      27
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-28",
+    "category": "Sleep Management",
+    "audience": "care_recipient",
+    "question": "Why does my loved one become more restless in the evening?",
+    "steps": [
+      "Keep evenings calm and comfortably lit to reduce confusing shadows.",
+      "Try a regular daily routine and daylight activity.",
+      "Talk with their healthcare professional about sleep or behavior changes."
+    ],
+    "note": "Evening confusion is sometimes called sundowning; its causes vary.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/sleep-issues-sundowning",
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      28
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-29",
+    "category": "Sleep Management",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one sleep better at night?",
+    "steps": [
+      "Keep wake-up times, meals, and bedtime consistent.",
+      "Encourage daytime activity and limit late caffeine.",
+      "Keep the bedroom comfortable, with safe lighting for nighttime movement."
+    ],
+    "note": "Discuss persistent sleep problems with their healthcare professional.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/sleep-issues-sundowning",
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      29,
+      30
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-31",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How can I take care of myself while caring for someone with dementia?",
+    "steps": [
+      "Ask someone you trust for specific help and plan regular breaks.",
+      "Keep time for meals, movement, hobbies, and friends.",
+      "Consider a caregiver support group to share experiences."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      31,
+      37
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-32",
+    "category": "Stress Management",
+    "audience": "caregiver",
+    "question": "What should I do if I feel overwhelmed as a caregiver?",
+    "steps": [
+      "Talk to friends or professionals, practice meditation, and get regular exercise.",
+      "Don’t hesitate to seek mental health support if you need it."
+    ],
+    "note": "",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      32
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-33",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How do I know when it’s time to get help or place my loved one in a care facility?",
+    "steps": [
+      "If caregiving is too stressful or overwhelming, ask for help.",
+      "Temporary respite services are available, and you can consult a care navigator for long-term care options."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      33
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-35",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "Why should I build a support network for caregiving?",
+    "steps": [
+      "Build a support network of family, friends, healthcare professionals, and other caregivers.",
+      "Ask your network for both practical help and emotional support."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      35
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-36",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "Where can I find support groups for Alzheimer’s caregivers?",
+    "steps": [
+      "Contact the Alzheimer’s Association or Family Caregiver Alliance to find caregiver support groups.",
+      "Ask about in-person or online options that fit your schedule."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      36
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-38",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "What is respite care, and how can it help me?",
+    "steps": [
+      "Respite care provides temporary relief by allowing someone else to take over caregiving duties for a few hours, days, or even weeks.",
+      "This helps caregivers rest and recharge, improving their ability to care."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      38
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-39",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How can I prepare for future healthcare decisions for my loved one?",
+    "steps": [
+      "Start discussions early to involve them in decision-making.",
+      "Make sure you have permission to talk to their doctor or lawyer about important care matters."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      39
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-41",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How do I help an older adult plan for the future?",
+    "steps": [
+      "Talk with your loved one about their future medical wishes.",
+      "Ask a qualified local professional about recording those wishes in an advance directive."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      41
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-42",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How can I talk to my loved one about their care preferences?",
+    "steps": [
+      "Start conversations about care preferences early and include your loved one.",
+      "Talk about home support, future care settings, and wishes for medical treatment."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      42,
+      44
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "faq-43",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How do I prepare for future legal and financial matters?",
+    "steps": [
+      "Discuss future legal and financial plans while your loved one can participate.",
+      "Ask a qualified local professional about advance directives and powers of attorney."
+    ],
+    "note": "Requirements vary by location. This resource does not provide legal advice.",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      43,
+      40
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Imported and reformatted; not clinically reviewed."
+  },
+  {
+    "id": "draft-01",
+    "category": "Stress Management",
+    "audience": "care_recipient",
+    "question": "Why does my loved one become anxious or upset without an obvious reason?",
+    "steps": [
+      "Check for discomfort, tiredness, or too much noise.",
+      "Offer reassurance and a quieter space."
+    ],
+    "note": "A sudden change should be checked by their healthcare professional.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  },
+  {
+    "id": "draft-02",
+    "category": "Stress Management",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one calm down when they feel overwhelmed?",
+    "steps": [
+      "Speak gently and give them time and space.",
+      "Offer a familiar, calming activity."
+    ],
+    "note": "Avoid arguing or forcing an activity.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  },
+  {
+    "id": "draft-03",
+    "category": "Stress Management",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one becomes upset when our routine changes?",
+    "steps": [
+      "Explain the next step in a few simple words.",
+      "Keep familiar parts of the day and allow extra time."
+    ],
+    "note": "Predictability can help a day feel easier.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  },
+  {
+    "id": "draft-04",
+    "category": "Stress Management",
+    "audience": "caregiver",
+    "question": "What can I do when I feel frustrated or lose my patience?",
+    "steps": [
+      "Pause and breathe slowly while your loved one is safe.",
+      "Ask someone you trust to take over for a short break."
+    ],
+    "note": "Needing help does not mean you have failed.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  },
+  {
+    "id": "draft-05",
+    "category": "Stress Management",
+    "audience": "caregiver",
+    "question": "How can I recognize signs of caregiver burnout?",
+    "steps": [
+      "Notice ongoing exhaustion, irritability, or withdrawing from people.",
+      "Tell your healthcare professional how you have been feeling."
+    ],
+    "note": "These signs are a reason to seek support, not a diagnosis.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  },
+  {
+    "id": "draft-06",
+    "category": "Stress Management",
+    "audience": "caregiver",
+    "question": "How can I take a break when I cannot leave my loved one alone?",
+    "steps": [
+      "Ask a trusted person to stay with your loved one.",
+      "Explore respite care for planned time away."
+    ],
+    "note": "Arrange safe coverage before you leave.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [
+      34
+    ],
+    "reviewNote": "New required draft merged with table row 34 on arranging a caregiving break."
+  },
+  {
+    "id": "draft-07",
+    "category": "Sleep Management",
+    "audience": "care_recipient",
+    "question": "Why does my loved one keep waking up at night?",
+    "steps": [
+      "Note when waking happens and any signs of discomfort.",
+      "Discuss recurring waking and medicines with their healthcare professional."
+    ],
+    "note": "Sleep changes can have several causes. Do not change medicines yourself.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/sleep-issues-sundowning",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  },
+  {
+    "id": "draft-08",
+    "category": "Sleep Management",
+    "audience": "care_recipient",
+    "question": "What should I do when my loved one becomes confused at night?",
+    "steps": [
+      "Approach calmly and check what they need.",
+      "Offer reassurance and gentle lighting."
+    ],
+    "note": "Seek prompt medical help for sudden or unusual confusion.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/sleep-issues-sundowning",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  },
+  {
+    "id": "draft-09",
+    "category": "Sleep Management",
+    "audience": "care_recipient",
+    "question": "How can I create a safer and more comfortable bedtime routine?",
+    "steps": [
+      "Keep bedtime consistent and evenings quiet.",
+      "Clear walking paths and provide gentle night lighting."
+    ],
+    "note": "Adapt the routine to their comfort and safety needs.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/sleep-issues-sundowning",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  },
+  {
+    "id": "draft-10",
+    "category": "Sleep Management",
+    "audience": "caregiver",
+    "question": "How can I sleep better when my loved one wakes up often?",
+    "steps": [
+      "Arrange shared overnight care when possible.",
+      "Ask the care team for help with repeated night waking."
+    ],
+    "note": "You need protected time to rest, too.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  },
+  {
+    "id": "draft-11",
+    "category": "Sleep Management",
+    "audience": "caregiver",
+    "question": "What can I do if I cannot fall asleep because I worry about my loved one?",
+    "steps": [
+      "Try a quiet wind-down and slow breathing.",
+      "Talk with your healthcare professional if worry keeps affecting sleep."
+    ],
+    "note": "Support is available for you as well as your loved one.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  },
+  {
+    "id": "draft-12",
+    "category": "Sleep Management",
+    "audience": "caregiver",
+    "question": "How can I get enough rest when I provide care around the clock?",
+    "steps": [
+      "Ask family or respite services for a planned period of cover.",
+      "Tell your care team if the current schedule leaves you exhausted."
+    ],
+    "note": "Round-the-clock care is a reason to bring in more support.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
+    "reviewStatus": "needs_clinical_review",
+    "origin": "new_draft",
+    "sourceRows": [],
+    "reviewNote": "New draft; needs professional review."
+  }
+]

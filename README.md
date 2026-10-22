@@ -20,7 +20,7 @@ Open the URL printed by Vite. Build using `npm run build`; output is `dist/`. `n
 - A− / A+ adjust the root text size from 18 to 24px. Browser zoom remains available.
 - Responsive layouts, visible focus rings, a skip link, and 44px primary touch targets.
 - Topic/perspective URLs use hash routing, including browser Back/Forward and refresh.
-- About and medical disclaimer sections; no institutional endorsement.
+- Casual tips wording; no branded footer or informational subpages. Per-answer review labels and relevant safety notes remain.
 
 ## Edit content
 

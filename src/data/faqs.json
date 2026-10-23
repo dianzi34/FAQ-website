@@ -653,18 +653,35 @@
     "audience": "care_recipient",
     "question": "What should I do if my loved one gets agitated or confused?",
     "steps": [
-      "Give them space, reassure them, and distract them with a simple activity like looking at a photo album.",
-      "Try to maintain a calm environment."
+      "Give them space, reassure them, and distract them with a simple activity like looking at a photo album. Try to maintain a calm environment."
     ],
+    "answerText": "Give them space, reassure them, and distract them with a simple activity like looking at a photo album. Try to maintain a calm environment.",
     "note": "",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
+    "sourceUrl": null,
     "reviewStatus": "needs_clinical_review",
     "sourceRows": [
-      4,
+      4
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Original CSV question and answer, unchanged. Classified by topic and intended recipient; no new advice."
+  },
+  {
+    "id": "faq-07",
+    "category": "Stress Management",
+    "audience": "care_recipient",
+    "question": "How can I deal with agitation in my loved one?",
+    "steps": [
+      "Reduce noise and clutter, maintain routines, and use gentle reassurance. Distract them with activities or food if they seem upset."
+    ],
+    "answerText": "Reduce noise and clutter, maintain routines, and use gentle reassurance. Distract them with activities or food if they seem upset.",
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
       7
     ],
     "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
+    "reviewNote": "Original CSV question and answer, unchanged. Classified by topic and intended recipient; no new advice."
   },
   {
     "id": "faq-10",
@@ -672,56 +689,17 @@
     "audience": "care_recipient",
     "question": "How can I help my loved one manage changes in behavior?",
     "steps": [
-      "Respect their space and keep familiar objects around.",
-      "Build quiet times into the day to reduce stress and anxiety."
+      "Respect their space and keep familiar objects around. Build quiet times into the day to reduce stress and anxiety."
     ],
+    "answerText": "Respect their space and keep familiar objects around. Build quiet times into the day to reduce stress and anxiety.",
     "note": "",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
+    "sourceUrl": null,
     "reviewStatus": "needs_clinical_review",
     "sourceRows": [
       10
     ],
     "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-28",
-    "category": "Sleep Management",
-    "audience": "care_recipient",
-    "question": "Why does my loved one become more restless in the evening?",
-    "steps": [
-      "Keep evenings calm and comfortably lit to reduce confusing shadows.",
-      "Try a regular daily routine and daylight activity.",
-      "Talk with their healthcare professional about sleep or behavior changes."
-    ],
-    "note": "Evening confusion is sometimes called sundowning; its causes vary.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/sleep-issues-sundowning",
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      28
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-29",
-    "category": "Sleep Management",
-    "audience": "care_recipient",
-    "question": "How can I help my loved one sleep better at night?",
-    "steps": [
-      "Keep wake-up times, meals, and bedtime consistent.",
-      "Encourage daytime activity and limit late caffeine.",
-      "Keep the bedroom comfortable, with safe lighting for nighttime movement."
-    ],
-    "note": "Discuss persistent sleep problems with their healthcare professional.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/sleep-issues-sundowning",
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      29,
-      30
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
+    "reviewNote": "Original CSV question and answer, unchanged. Classified by topic and intended recipient; no new advice."
   },
   {
     "id": "faq-32",
@@ -729,210 +707,88 @@
     "audience": "caregiver",
     "question": "What should I do if I feel overwhelmed as a caregiver?",
     "steps": [
-      "Talk to friends or professionals, practice meditation, and get regular exercise.",
-      "Don’t hesitate to seek mental health support if you need it."
+      "Talk to friends or professionals, practice meditation, and get regular exercise. Don’t hesitate to seek mental health support if you need it."
     ],
+    "answerText": "Talk to friends or professionals, practice meditation, and get regular exercise. Don’t hesitate to seek mental health support if you need it.",
     "note": "",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
+    "sourceUrl": null,
     "reviewStatus": "needs_clinical_review",
     "sourceRows": [
       32
     ],
     "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
+    "reviewNote": "Original CSV question and answer, unchanged. Classified by topic and intended recipient; no new advice."
   },
   {
-    "id": "draft-01",
-    "category": "Stress Management",
-    "audience": "care_recipient",
-    "question": "Why does my loved one become anxious or upset without an obvious reason?",
-    "steps": [
-      "Check for discomfort, tiredness, or too much noise.",
-      "Offer reassurance and a quieter space."
-    ],
-    "note": "A sudden change should be checked by their healthcare professional.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
-    "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
-  },
-  {
-    "id": "draft-02",
-    "category": "Stress Management",
-    "audience": "care_recipient",
-    "question": "How can I help my loved one calm down when they feel overwhelmed?",
-    "steps": [
-      "Speak gently and give them time and space.",
-      "Offer a familiar, calming activity."
-    ],
-    "note": "Avoid arguing or forcing an activity.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
-    "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
-  },
-  {
-    "id": "draft-03",
-    "category": "Stress Management",
-    "audience": "care_recipient",
-    "question": "What should I do if my loved one becomes upset when our routine changes?",
-    "steps": [
-      "Explain the next step in a few simple words.",
-      "Keep familiar parts of the day and allow extra time."
-    ],
-    "note": "Predictability can help a day feel easier.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
-    "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
-  },
-  {
-    "id": "draft-04",
+    "id": "faq-34",
     "category": "Stress Management",
     "audience": "caregiver",
-    "question": "What can I do when I feel frustrated or lose my patience?",
+    "question": "I’m overwhelmed and exhausted. How can I get a break from caregiving?",
     "steps": [
-      "Pause and breathe slowly while your loved one is safe.",
-      "Ask someone you trust to take over for a short break."
+      "Ask family or friends for help. Consider respite care, which provides short-term relief and allows you to rest or attend to personal matters."
     ],
-    "note": "Needing help does not mean you have failed.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
+    "answerText": "Ask family or friends for help. Consider respite care, which provides short-term relief and allows you to rest or attend to personal matters.",
+    "note": "",
+    "sourceUrl": null,
     "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
-  },
-  {
-    "id": "draft-05",
-    "category": "Stress Management",
-    "audience": "caregiver",
-    "question": "How can I recognize signs of caregiver burnout?",
-    "steps": [
-      "Notice ongoing exhaustion, irritability, or withdrawing from people.",
-      "Tell your healthcare professional how you have been feeling."
-    ],
-    "note": "These signs are a reason to seek support, not a diagnosis.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
-    "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
-  },
-  {
-    "id": "draft-06",
-    "category": "Stress Management",
-    "audience": "caregiver",
-    "question": "How can I take a break when I cannot leave my loved one alone?",
-    "steps": [
-      "Ask a trusted person to stay with your loved one.",
-      "Explore respite care for planned time away."
-    ],
-    "note": "Arrange safe coverage before you leave.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
-    "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
     "sourceRows": [
       34
     ],
-    "reviewNote": "New required draft merged with table row 34 on arranging a caregiving break."
+    "origin": "provided_table",
+    "reviewNote": "Original CSV question and answer, unchanged. Classified by topic and intended recipient; no new advice."
   },
   {
-    "id": "draft-07",
+    "id": "faq-28",
     "category": "Sleep Management",
     "audience": "care_recipient",
-    "question": "Why does my loved one keep waking up at night?",
+    "question": "Why does my loved one become more restless in the evening?",
     "steps": [
-      "Note when waking happens and any signs of discomfort.",
-      "Discuss recurring waking and medicines with their healthcare professional."
+      "This is known as sundowning, often caused by exhaustion or confusion over day and night. Encourage physical activity during the day and keep the evening calm and quiet."
     ],
-    "note": "Sleep changes can have several causes. Do not change medicines yourself.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/sleep-issues-sundowning",
+    "answerText": "This is known as sundowning, often caused by exhaustion or confusion over day and night. Encourage physical activity during the day and keep the evening calm and quiet.",
+    "note": "",
+    "sourceUrl": null,
     "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
+    "sourceRows": [
+      28
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Original CSV question and answer, unchanged. Classified by topic and intended recipient; no new advice."
   },
   {
-    "id": "draft-08",
+    "id": "faq-29",
     "category": "Sleep Management",
     "audience": "care_recipient",
-    "question": "What should I do when my loved one becomes confused at night?",
+    "question": "How can I help my loved one sleep better at night?",
     "steps": [
-      "Approach calmly and check what they need.",
-      "Offer reassurance and gentle lighting."
+      "Maintain a routine, limit naps during the day, and avoid caffeine or sugary foods. Ensure the room is dark and safe for them to sleep."
     ],
-    "note": "Seek prompt medical help for sudden or unusual confusion.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/sleep-issues-sundowning",
+    "answerText": "Maintain a routine, limit naps during the day, and avoid caffeine or sugary foods. Ensure the room is dark and safe for them to sleep.",
+    "note": "",
+    "sourceUrl": null,
     "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
+    "sourceRows": [
+      29
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Original CSV question and answer, unchanged. Classified by topic and intended recipient; no new advice."
   },
   {
-    "id": "draft-09",
+    "id": "faq-30",
     "category": "Sleep Management",
     "audience": "care_recipient",
-    "question": "How can I create a safer and more comfortable bedtime routine?",
+    "question": "What can I do if my loved one has trouble sleeping?",
     "steps": [
-      "Keep bedtime consistent and evenings quiet.",
-      "Clear walking paths and provide gentle night lighting."
+      "Encourage physical activity during the day and keep the evenings calm. Make sure the bedroom is safe and comfortable with nightlights if needed."
     ],
-    "note": "Adapt the routine to their comfort and safety needs.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/sleep-issues-sundowning",
+    "answerText": "Encourage physical activity during the day and keep the evenings calm. Make sure the bedroom is safe and comfortable with nightlights if needed.",
+    "note": "",
+    "sourceUrl": null,
     "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
-  },
-  {
-    "id": "draft-10",
-    "category": "Sleep Management",
-    "audience": "caregiver",
-    "question": "How can I sleep better when my loved one wakes up often?",
-    "steps": [
-      "Arrange shared overnight care when possible.",
-      "Ask the care team for help with repeated night waking."
+    "sourceRows": [
+      30
     ],
-    "note": "You need protected time to rest, too.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
-    "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
-  },
-  {
-    "id": "draft-11",
-    "category": "Sleep Management",
-    "audience": "caregiver",
-    "question": "What can I do if I cannot fall asleep because I worry about my loved one?",
-    "steps": [
-      "Try a quiet wind-down and slow breathing.",
-      "Talk with your healthcare professional if worry keeps affecting sleep."
-    ],
-    "note": "Support is available for you as well as your loved one.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
-    "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
-  },
-  {
-    "id": "draft-12",
-    "category": "Sleep Management",
-    "audience": "caregiver",
-    "question": "How can I get enough rest when I provide care around the clock?",
-    "steps": [
-      "Ask family or respite services for a planned period of cover.",
-      "Tell your care team if the current schedule leaves you exhausted."
-    ],
-    "note": "Round-the-clock care is a reason to bring in more support.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
-    "reviewStatus": "needs_clinical_review",
-    "origin": "new_draft",
-    "sourceRows": [],
-    "reviewNote": "New draft; needs professional review."
+    "origin": "provided_table",
+    "reviewNote": "Original CSV question and answer, unchanged. Classified by topic and intended recipient; no new advice."
   }
 ]

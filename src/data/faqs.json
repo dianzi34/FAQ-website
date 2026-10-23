@@ -5,8 +5,7 @@
     "audience": "care_recipient",
     "question": "How can I improve communication with my loved one?",
     "steps": [
-      "Set a positive mood, use simple words, and speak clearly.",
-      "Keep distractions to a minimum and use body language or touch to help convey your message."
+      "Set a positive mood, use simple words, and speak clearly. Keep distractions to a minimum and use body language or touch to help convey your message."
     ],
     "note": "",
     "sourceUrl": null,
@@ -15,7 +14,8 @@
       1
     ],
     "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Set a positive mood, use simple words, and speak clearly. Keep distractions to a minimum and use body language or touch to help convey your message."
   },
   {
     "id": "faq-02",
@@ -23,8 +23,7 @@
     "audience": "care_recipient",
     "question": "What should I do if my loved one doesn’t understand me?",
     "steps": [
-      "Repeat your message using the same words.",
-      "If they still don’t understand, wait a few minutes and rephrase it."
+      "Repeat your message using the same words. If they still don’t understand, wait a few minutes and rephrase it."
     ],
     "note": "",
     "sourceUrl": null,
@@ -33,7 +32,8 @@
       2
     ],
     "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Repeat your message using the same words. If they still don’t understand, wait a few minutes and rephrase it."
   },
   {
     "id": "faq-03",
@@ -41,8 +41,7 @@
     "audience": "care_recipient",
     "question": "How can I ask questions to avoid confusion?",
     "steps": [
-      "Ask one question at a time with simple, answerable options.",
-      "Yes or no questions or giving two choices is often best."
+      "Ask one question at a time with simple, answerable options. Yes or no questions or giving two choices is often best."
     ],
     "note": "",
     "sourceUrl": null,
@@ -51,7 +50,602 @@
       3
     ],
     "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Ask one question at a time with simple, answerable options. Yes or no questions or giving two choices is often best."
+  },
+  {
+    "id": "faq-05",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "How can I get my loved one to shower or change clothes when they refuse?",
+    "steps": [
+      "Keep a routine and create a calm environment. Turn off distractions and be patient. If they are agitated, try again later."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      5
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Keep a routine and create a calm environment. Turn off distractions and be patient. If they are agitated, try again later."
+  },
+  {
+    "id": "faq-06",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one refuses to leave the home?",
+    "steps": [
+      "Take it slow, one step at a time (e.g., put on shoes, then a coat). Don’t mention stressful destinations; instead, focus on a positive activity they enjoy."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      6
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Take it slow, one step at a time (e.g., put on shoes, then a coat). Don’t mention stressful destinations; instead, focus on a positive activity they enjoy."
+  },
+  {
+    "id": "faq-08",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What can I do if my loved one starts wandering?",
+    "steps": [
+      "Ensure regular exercise and consider installing locks or using monitoring devices. Inform neighbors and ensure your loved one wears an ID bracelet."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      8
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Ensure regular exercise and consider installing locks or using monitoring devices. Inform neighbors and ensure your loved one wears an ID bracelet."
+  },
+  {
+    "id": "faq-09",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "How can I manage repetitive questions or actions?",
+    "steps": [
+      "Stay patient and offer reassurance. Try distracting them with another activity or placing visual reminders around the house."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      9
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Stay patient and offer reassurance. Try distracting them with another activity or placing visual reminders around the house."
+  },
+  {
+    "id": "faq-11",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one struggles with personal tasks like dressing or bathing?",
+    "steps": [
+      "Maintain a routine and allow them to do as much as possible. Use gentle guidance and safety aids like a shower chair or easy-to-use clothing."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      11
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Maintain a routine and allow them to do as much as possible. Use gentle guidance and safety aids like a shower chair or easy-to-use clothing."
+  },
+  {
+    "id": "faq-12",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one with bathing?",
+    "steps": [
+      "Stick to their old routine (shower or bath) and maintain their modesty by covering them with a towel. Use safety features like non-slip mats and never leave them alone in the tub."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      12
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Stick to their old routine (shower or bath) and maintain their modesty by covering them with a towel. Use safety features like non-slip mats and never leave them alone in the tub."
+  },
+  {
+    "id": "faq-13",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one with dressing?",
+    "steps": [
+      "Choose simple, comfortable clothes with minimal buttons or zippers. Lay out one item at a time and assist where needed."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      13
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Choose simple, comfortable clothes with minimal buttons or zippers. Lay out one item at a time and assist where needed."
+  },
+  {
+    "id": "faq-14",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one has incontinence?",
+    "steps": [
+      "Establish a routine for bathroom use and remind them to go regularly. Use incontinence products, easy-to-remove clothing, and ensure signs point them to the bathroom."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      14
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Establish a routine for bathroom use and remind them to go regularly. Use incontinence products, easy-to-remove clothing, and ensure signs point them to the bathroom."
+  },
+  {
+    "id": "faq-15",
+    "category": "Daily Care & Behavior",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one with daily tasks?",
+    "steps": [
+      "Stick to a daily routine and allow them to help with simple tasks. Write down to-do lists and use reminders for important activities."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      15
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Stick to a daily routine and allow them to help with simple tasks. Write down to-do lists and use reminders for important activities."
+  },
+  {
+    "id": "faq-16",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What can I do to help my loved one eat well?",
+    "steps": [
+      "Serve meals at the same time every day in a familiar place. Offer smaller, easy-to-eat portions and give them plenty of time to finish their food."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      16
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Serve meals at the same time every day in a familiar place. Offer smaller, easy-to-eat portions and give them plenty of time to finish their food."
+  },
+  {
+    "id": "faq-17",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How fast does Alzheimer’s disease progress?",
+    "steps": [
+      "Alzheimer’s progresses in three stages: early (memory loss), middle (safety concerns), and late (difficulty with daily tasks). Care needs will increase over time."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      17
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Alzheimer’s progresses in three stages: early (memory loss), middle (safety concerns), and late (difficulty with daily tasks). Care needs will increase over time."
+  },
+  {
+    "id": "faq-18",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How can I help my loved one remember to take medications or attend appointments?",
+    "steps": [
+      "Use a notebook or calendar for reminders, and help them create a routine for daily tasks and medications."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      18
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Use a notebook or calendar for reminders, and help them create a routine for daily tasks and medications."
+  },
+  {
+    "id": "faq-19",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How can I prevent my loved one from falling?",
+    "steps": [
+      "Install grab bars, use non-slip mats, and ensure rooms are well-lit. Keep dangerous objects out of reach and ensure their surroundings are safe."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      19
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Install grab bars, use non-slip mats, and ensure rooms are well-lit. Keep dangerous objects out of reach and ensure their surroundings are safe."
+  },
+  {
+    "id": "faq-20",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one becomes paranoid or sees things that aren’t there?",
+    "steps": [
+      "Remain calm and avoid arguing. Reassure them and offer simple explanations or distractions."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      20
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Remain calm and avoid arguing. Reassure them and offer simple explanations or distractions."
+  },
+  {
+    "id": "faq-21",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How can I make the home safer for my loved one?",
+    "steps": [
+      "Install handrails, remove tripping hazards, and keep rooms well-lit. Use safety plugs and lock up dangerous household items."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      21
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Install handrails, remove tripping hazards, and keep rooms well-lit. Use safety plugs and lock up dangerous household items."
+  },
+  {
+    "id": "faq-22",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What steps can I take to prevent accidents?",
+    "steps": [
+      "Use a sturdy shower chair and install grab bars in the bathroom. Make sure all staircases have proper handrails."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      22
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Use a sturdy shower chair and install grab bars in the bathroom. Make sure all staircases have proper handrails."
+  },
+  {
+    "id": "faq-23",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one wants to keep driving?",
+    "steps": [
+      "In the middle and late stages of dementia, driving isn’t safe. Try talking with them about your concerns or ask a doctor to help. If needed, hide the car keys or move the car out of sight."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      23
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "In the middle and late stages of dementia, driving isn’t safe. Try talking with them about your concerns or ask a doctor to help. If needed, hide the car keys or move the car out of sight."
+  },
+  {
+    "id": "faq-24",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How can I ensure my loved one eats well?",
+    "steps": [
+      "Stick to a regular meal schedule and offer small, frequent meals. Make mealtimes special with soft music and try using finger foods for easy eating."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      24
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Stick to a regular meal schedule and offer small, frequent meals. Make mealtimes special with soft music and try using finger foods for easy eating."
+  },
+  {
+    "id": "faq-25",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "What should I do if my loved one has trouble swallowing?",
+    "steps": [
+      "Contact their healthcare professional for a swallowing assessment.",
+      "Follow an individualized eating and drinking plan from a qualified clinician."
+    ],
+    "note": "Do not move their chin or stroke their throat to trigger swallowing. If they cannot breathe or are choking, call 911.",
+    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage",
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      25
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Restoration exception: retained existing swallowing-assessment advice; original chin/throat manipulation instruction is not republished as a tip."
+  },
+  {
+    "id": "faq-26",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How can I encourage my loved one to stay active?",
+    "steps": [
+      "Encourage simple activities like walking, light household chores, or dancing to music. Join them to make the activity more enjoyable."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      26
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Encourage simple activities like walking, light household chores, or dancing to music. Join them to make the activity more enjoyable."
+  },
+  {
+    "id": "faq-27",
+    "category": "Health & Safety",
+    "audience": "care_recipient",
+    "question": "How do I ensure my loved one is eating healthily?",
+    "steps": [
+      "Offer easy-to-prepare, nutritious food options. Let them choose between a couple of healthy meals."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      27
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Offer easy-to-prepare, nutritious food options. Let them choose between a couple of healthy meals."
+  },
+  {
+    "id": "faq-31",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How can I take care of myself while caring for someone with dementia?",
+    "steps": [
+      "Ask for help when needed, take breaks, and maintain hobbies. Join a support group to connect with other caregivers and share experiences."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      31
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Ask for help when needed, take breaks, and maintain hobbies. Join a support group to connect with other caregivers and share experiences."
+  },
+  {
+    "id": "faq-33",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How do I know when it’s time to get help or place my loved one in a care facility?",
+    "steps": [
+      "If caregiving is too stressful or overwhelming, ask for help. Temporary respite services are available, and you can consult a care navigator for long-term care options."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      33
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "If caregiving is too stressful or overwhelming, ask for help. Temporary respite services are available, and you can consult a care navigator for long-term care options."
+  },
+  {
+    "id": "faq-35",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "Why should I build a support network for caregiving?",
+    "steps": [
+      "Having a broader network, including family, friends, doctors, and support groups, helps reduce stress and provides emotional and practical support for both you and your loved one."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      35
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Having a broader network, including family, friends, doctors, and support groups, helps reduce stress and provides emotional and practical support for both you and your loved one."
+  },
+  {
+    "id": "faq-36",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "Where can I find support groups for Alzheimer’s caregivers?",
+    "steps": [
+      "Organizations like the Alzheimer’s Association and Family Caregiver Alliance can help you find both in-person and online support groups."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      36
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Organizations like the Alzheimer’s Association and Family Caregiver Alliance can help you find both in-person and online support groups."
+  },
+  {
+    "id": "faq-37",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How can I take care of myself while caregiving?",
+    "steps": [
+      "Focus on your well-being by maintaining healthy habits like eating well, exercising, and staying connected with friends and family. Taking breaks and practicing self-care is essential to being an effective caregiver."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      37
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Focus on your well-being by maintaining healthy habits like eating well, exercising, and staying connected with friends and family. Taking breaks and practicing self-care is essential to being an effective caregiver."
+  },
+  {
+    "id": "faq-38",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "What is respite care, and how can it help me?",
+    "steps": [
+      "Respite care provides temporary relief by allowing someone else to take over caregiving duties for a few hours, days, or even weeks. This helps caregivers rest and recharge, improving their ability to care."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      38
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Respite care provides temporary relief by allowing someone else to take over caregiving duties for a few hours, days, or even weeks. This helps caregivers rest and recharge, improving their ability to care."
+  },
+  {
+    "id": "faq-39",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How can I prepare for future healthcare decisions for my loved one?",
+    "steps": [
+      "Start discussions early to involve them in decision-making. Make sure you have permission to talk to their doctor or lawyer about important care matters."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      39
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Start discussions early to involve them in decision-making. Make sure you have permission to talk to their doctor or lawyer about important care matters."
+  },
+  {
+    "id": "faq-40",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "What legal matters should I consider as the disease progresses?",
+    "steps": [
+      "Plan ahead for legal and financial matters, in-home care, and long-term care. Understanding the disease will help you prepare for future decisions."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      40
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Plan ahead for legal and financial matters, in-home care, and long-term care. Understanding the disease will help you prepare for future decisions."
+  },
+  {
+    "id": "faq-41",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How do I help an older adult plan for the future?",
+    "steps": [
+      "Help them prepare legal documents like advance directives to ensure their medical wishes are known in case they can’t communicate."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      41
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Help them prepare legal documents like advance directives to ensure their medical wishes are known in case they can’t communicate."
+  },
+  {
+    "id": "faq-42",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How can I talk to my loved one about their care preferences?",
+    "steps": [
+      "It’s important to start conversations early. Ask about their preferences for home care, medical treatment, and end-of-life wishes, and involve them in decision-making."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      42
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "It’s important to start conversations early. Ask about their preferences for home care, medical treatment, and end-of-life wishes, and involve them in decision-making."
+  },
+  {
+    "id": "faq-43",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "How do I prepare for future legal and financial matters?",
+    "steps": [
+      "Involve a lawyer to handle discussions around finances, assets, and legal documents such as advance directives and power of attorney. Planning early helps ensure your loved one’s wishes are respected."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      43
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Involve a lawyer to handle discussions around finances, assets, and legal documents such as advance directives and power of attorney. Planning early helps ensure your loved one’s wishes are respected."
+  },
+  {
+    "id": "faq-44",
+    "category": "Caregiver Support & Planning",
+    "audience": "caregiver",
+    "question": "What should I consider when planning for future care?",
+    "steps": [
+      "Discuss future care options, including home care or potential long-term care facilities, and involve your loved one in decision-making while they are still able to participate."
+    ],
+    "note": "",
+    "sourceUrl": null,
+    "reviewStatus": "needs_clinical_review",
+    "sourceRows": [
+      44
+    ],
+    "origin": "provided_table",
+    "reviewNote": "Question and answer restored verbatim from supplied CSV. Category mapping retained. Not clinically reviewed.",
+    "answerText": "Discuss future care options, including home care or potential long-term care facilities, and involve your loved one in decision-making while they are still able to participate."
   },
   {
     "id": "faq-04",
@@ -73,80 +667,6 @@
     "reviewNote": "Imported and reformatted; not clinically reviewed."
   },
   {
-    "id": "faq-05",
-    "category": "Daily Care & Behavior",
-    "audience": "care_recipient",
-    "question": "How can I get my loved one to shower or change clothes when they refuse?",
-    "steps": [
-      "Keep a routine and create a calm environment.",
-      "Turn off distractions and be patient.",
-      "If they are agitated, try again later."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      5
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-06",
-    "category": "Daily Care & Behavior",
-    "audience": "care_recipient",
-    "question": "What should I do if my loved one refuses to leave the home?",
-    "steps": [
-      "Break getting ready into small steps, such as putting on shoes, then a coat.",
-      "Explain the outing simply and reassuringly. Allow time, and avoid pressure."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      6
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Removed suggestion to conceal a stressful destination."
-  },
-  {
-    "id": "faq-08",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "What can I do if my loved one starts wandering?",
-    "steps": [
-      "Stay with your loved one and offer a familiar, safe activity.",
-      "Plan supervision, identification, and door alerts; keep emergency exits usable.",
-      "If your loved one is missing, call 911 and explain that they have dementia."
-    ],
-    "note": "Never lock a person alone inside a home. Monitoring devices cannot replace supervision.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/wandering",
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      8
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Replaced ambiguous locking advice; added missing-person response."
-  },
-  {
-    "id": "faq-09",
-    "category": "Daily Care & Behavior",
-    "audience": "care_recipient",
-    "question": "How can I manage repetitive questions or actions?",
-    "steps": [
-      "Stay patient and offer reassurance.",
-      "Try distracting them with another activity or placing visual reminders around the house."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      9
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
     "id": "faq-10",
     "category": "Stress Management",
     "audience": "care_recipient",
@@ -160,299 +680,6 @@
     "reviewStatus": "needs_clinical_review",
     "sourceRows": [
       10
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-11",
-    "category": "Daily Care & Behavior",
-    "audience": "care_recipient",
-    "question": "What should I do if my loved one struggles with personal tasks like dressing or bathing?",
-    "steps": [
-      "Maintain a routine and allow them to do as much as possible.",
-      "Use gentle guidance and safety aids like a shower chair or easy-to-use clothing."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      11
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-12",
-    "category": "Daily Care & Behavior",
-    "audience": "care_recipient",
-    "question": "How can I help my loved one with bathing?",
-    "steps": [
-      "Stick to their old routine (shower or bath) and maintain their modesty by covering them with a towel.",
-      "Use safety features like non-slip mats and never leave them alone in the tub."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      12
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-13",
-    "category": "Daily Care & Behavior",
-    "audience": "care_recipient",
-    "question": "How can I help my loved one with dressing?",
-    "steps": [
-      "Choose simple, comfortable clothes with minimal buttons or zippers.",
-      "Lay out one item at a time and assist where needed."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      13
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-14",
-    "category": "Daily Care & Behavior",
-    "audience": "care_recipient",
-    "question": "What should I do if my loved one has incontinence?",
-    "steps": [
-      "Establish a routine for bathroom use and remind them to go regularly.",
-      "Use incontinence products, easy-to-remove clothing, and ensure signs point them to the bathroom."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      14
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-15",
-    "category": "Daily Care & Behavior",
-    "audience": "care_recipient",
-    "question": "How can I help my loved one with daily tasks?",
-    "steps": [
-      "Stick to a daily routine and allow them to help with simple tasks.",
-      "Write down to-do lists and use reminders for important activities."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      15
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-16",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "What can I do to help my loved one eat well?",
-    "steps": [
-      "Offer meals at regular times in a familiar, calm place.",
-      "Serve manageable portions and allow plenty of time to eat.",
-      "Offer choices between nutritious foods they enjoy."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      16,
-      24
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-17",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "How fast does Alzheimer’s disease progress?",
-    "steps": [
-      "Ask their healthcare professional about changes and what support may be needed next.",
-      "Plan for increasing help with daily activities over time."
-    ],
-    "note": "Progression varies from person to person. A stage label cannot predict an individual timeline.",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      17
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Original answer did not answer speed and oversimplified stages."
-  },
-  {
-    "id": "faq-18",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "How can I help my loved one remember to take medications or attend appointments?",
-    "steps": [
-      "Keep appointments on a shared calendar or notebook.",
-      "Ask a pharmacist or healthcare professional to help make a safe medication routine.",
-      "Arrange supervision if reminders alone are not enough."
-    ],
-    "note": "Do not change medicines or doses without professional advice.",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      18
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Calendar reminders alone may not be sufficient for medication safety."
-  },
-  {
-    "id": "faq-19",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "How can I prevent my loved one from falling?",
-    "steps": [
-      "Install grab bars, use non-slip mats, and ensure rooms are well-lit.",
-      "Keep dangerous objects out of reach and ensure their surroundings are safe."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      19
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-20",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "What should I do if my loved one becomes paranoid or sees things that aren’t there?",
-    "steps": [
-      "Stay calm, acknowledge their feelings, and avoid arguing about what they see.",
-      "Check whether lighting or noise is confusing them.",
-      "Contact their healthcare professional about new or worsening symptoms."
-    ],
-    "note": "Sudden confusion needs prompt medical assessment.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation",
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      20
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Added assessment for new hallucinations or sudden changes."
-  },
-  {
-    "id": "faq-21",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "How can I make the home safer for my loved one?",
-    "steps": [
-      "Install handrails, remove tripping hazards, and keep rooms well-lit.",
-      "Use safety plugs and lock up dangerous household items."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      21
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-22",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "What steps can I take to prevent accidents?",
-    "steps": [
-      "Use a sturdy shower chair and install grab bars in the bathroom.",
-      "Make sure all staircases have proper handrails."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      22
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-23",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "What should I do if my loved one wants to keep driving?",
-    "steps": [
-      "Discuss driving concerns early with your loved one and their healthcare professional.",
-      "Ask about a driving assessment and arrange reliable alternative transport.",
-      "If driving is unsafe, prevent access to the car while arranging help."
-    ],
-    "note": "Safety cannot be decided by a disease stage alone.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/safety/dementia-driving",
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      23
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Removed implication that early-stage driving is always safe."
-  },
-  {
-    "id": "faq-25",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "What should I do if my loved one has trouble swallowing?",
-    "steps": [
-      "Contact their healthcare professional for a swallowing assessment.",
-      "Follow an individualized eating and drinking plan from a qualified clinician."
-    ],
-    "note": "Do not move their chin or stroke their throat to trigger swallowing. If they cannot breathe or are choking, call 911.",
-    "sourceUrl": "https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage",
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      25
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Removed manual swallowing maneuvers and blanket food-texture advice."
-  },
-  {
-    "id": "faq-26",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "How can I encourage my loved one to stay active?",
-    "steps": [
-      "Encourage simple activities like walking, light household chores, or dancing to music.",
-      "Join them to make the activity more enjoyable."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      26
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-27",
-    "category": "Health & Safety",
-    "audience": "care_recipient",
-    "question": "How do I ensure my loved one is eating healthily?",
-    "steps": [
-      "Offer easy-to-prepare, nutritious food options.",
-      "Let them choose between a couple of healthy meals."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      27
     ],
     "origin": "provided_table",
     "reviewNote": "Imported and reformatted; not clinically reviewed."
@@ -497,26 +724,6 @@
     "reviewNote": "Imported and reformatted; not clinically reviewed."
   },
   {
-    "id": "faq-31",
-    "category": "Caregiver Support & Planning",
-    "audience": "caregiver",
-    "question": "How can I take care of myself while caring for someone with dementia?",
-    "steps": [
-      "Ask someone you trust for specific help and plan regular breaks.",
-      "Keep time for meals, movement, hobbies, and friends.",
-      "Consider a caregiver support group to share experiences."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      31,
-      37
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
     "id": "faq-32",
     "category": "Stress Management",
     "audience": "caregiver",
@@ -530,152 +737,6 @@
     "reviewStatus": "needs_clinical_review",
     "sourceRows": [
       32
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-33",
-    "category": "Caregiver Support & Planning",
-    "audience": "caregiver",
-    "question": "How do I know when it’s time to get help or place my loved one in a care facility?",
-    "steps": [
-      "If caregiving is too stressful or overwhelming, ask for help.",
-      "Temporary respite services are available, and you can consult a care navigator for long-term care options."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      33
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-35",
-    "category": "Caregiver Support & Planning",
-    "audience": "caregiver",
-    "question": "Why should I build a support network for caregiving?",
-    "steps": [
-      "Build a support network of family, friends, healthcare professionals, and other caregivers.",
-      "Ask your network for both practical help and emotional support."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      35
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-36",
-    "category": "Caregiver Support & Planning",
-    "audience": "caregiver",
-    "question": "Where can I find support groups for Alzheimer’s caregivers?",
-    "steps": [
-      "Contact the Alzheimer’s Association or Family Caregiver Alliance to find caregiver support groups.",
-      "Ask about in-person or online options that fit your schedule."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      36
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-38",
-    "category": "Caregiver Support & Planning",
-    "audience": "caregiver",
-    "question": "What is respite care, and how can it help me?",
-    "steps": [
-      "Respite care provides temporary relief by allowing someone else to take over caregiving duties for a few hours, days, or even weeks.",
-      "This helps caregivers rest and recharge, improving their ability to care."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      38
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-39",
-    "category": "Caregiver Support & Planning",
-    "audience": "caregiver",
-    "question": "How can I prepare for future healthcare decisions for my loved one?",
-    "steps": [
-      "Start discussions early to involve them in decision-making.",
-      "Make sure you have permission to talk to their doctor or lawyer about important care matters."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      39
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-41",
-    "category": "Caregiver Support & Planning",
-    "audience": "caregiver",
-    "question": "How do I help an older adult plan for the future?",
-    "steps": [
-      "Talk with your loved one about their future medical wishes.",
-      "Ask a qualified local professional about recording those wishes in an advance directive."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      41
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-42",
-    "category": "Caregiver Support & Planning",
-    "audience": "caregiver",
-    "question": "How can I talk to my loved one about their care preferences?",
-    "steps": [
-      "Start conversations about care preferences early and include your loved one.",
-      "Talk about home support, future care settings, and wishes for medical treatment."
-    ],
-    "note": "",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      42,
-      44
-    ],
-    "origin": "provided_table",
-    "reviewNote": "Imported and reformatted; not clinically reviewed."
-  },
-  {
-    "id": "faq-43",
-    "category": "Caregiver Support & Planning",
-    "audience": "caregiver",
-    "question": "How do I prepare for future legal and financial matters?",
-    "steps": [
-      "Discuss future legal and financial plans while your loved one can participate.",
-      "Ask a qualified local professional about advance directives and powers of attorney."
-    ],
-    "note": "Requirements vary by location. This resource does not provide legal advice.",
-    "sourceUrl": null,
-    "reviewStatus": "needs_clinical_review",
-    "sourceRows": [
-      43,
-      40
     ],
     "origin": "provided_table",
     "reviewNote": "Imported and reformatted; not clinically reviewed."

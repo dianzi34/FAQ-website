@@ -13,7 +13,7 @@ function Icon({name='heart',...props}){
  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>{paths[name]||paths.heart}</svg>;
 }
 function readRoute(){const p=new URLSearchParams(location.hash.slice(1));return {topic:p.get('topic')||'',audience:p.get('audience')==='caregiver'?'caregiver':'care_recipient'};}
-function FAQ({faq}){return <details className="faq"><summary><span>{faq.question}</span><Icon name="plus"/></summary><div className="answer"><p className="step-heading">Try these small steps</p><ol>{faq.steps.map((s,i)=><li key={i}>{s}</li>)}</ol>{faq.note&&<p className="note">{faq.note}</p>}<div className="answer-source"><span>Draft · Needs clinical review</span>{faq.sourceUrl&&<a href={faq.sourceUrl} target="_blank" rel="noreferrer">Source information ↗</a>}</div></div></details>}
+function FAQ({faq}){return <details className="faq"><summary><span>{faq.question}</span><Icon name="plus"/></summary><div className="answer">{faq.answerText?<p className="original-answer">{faq.answerText}</p>:<><p className="step-heading">Try these small steps</p><ol>{faq.steps.map((s,i)=><li key={i}>{s}</li>)}</ol></>}{faq.note&&<p className="note">{faq.note}</p>}<div className="answer-source"><span>Draft · Needs clinical review</span>{faq.sourceUrl&&<a href={faq.sourceUrl} target="_blank" rel="noreferrer">Source information ↗</a>}</div></div></details>}
 export default function App(){
  const [route,setRoute]=useState(readRoute),[scale,setScale]=useState(0);
  const heading=useRef(null);

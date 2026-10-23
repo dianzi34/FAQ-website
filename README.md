@@ -30,7 +30,7 @@ Add a new JSON object to add a question; edit its fields to update it; remove th
 
 ## Content provenance and review
 
-`content/source-rows.json` retains all 44 original table rows for editorial comparison. It is **not imported by the application**; it contains original unreviewed and potentially unsafe wording. Six overlapping table rows are merged; one break-related row is incorporated into a required new draft, leaving 37 imported entries plus 12 new drafts (49 total). `content/CLINICAL_REVIEW.md` lists all questions and prioritizes swallowing, wandering, driving, medication safety, hallucinations, and progression. Some original advice was deliberately replaced with more cautious wording; changes are recorded, not silently treated as validated.
+`content/source-rows.json` retains all 44 original table rows for editorial comparison. It is **not imported by the application**; it contains original unreviewed and potentially unsafe wording. The current site has 53 entries. Stress and Sleep preserve 17 existing entries unchanged. The other categories contain 35 verbatim source answers and one documented swallowing exception. Four previously merged questions are restored. See `content/RESTORATION.md` for scope and exceptions. `content/CLINICAL_REVIEW.md` describes the earlier draft and is historical. The previously delivered Excel workbook predates this restoration and is not synchronized.
 
 Sources were checked on 2026-10-22. Source links indicate reference guidance, not clinical approval or endorsement. All entries need qualified review before a public health-information launch. The MVP is privately hosted through Sites for review.
 

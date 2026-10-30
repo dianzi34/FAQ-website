@@ -1,6 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import selfTips from './data/self-tips.json';
 import lovedOneTips from './data/loved-one-tips.json';
+function TipText({tip}){
+ if(!tip.references?.length)return tip.text;
+ return <>{tip.text.replace(/\s*\[[\d,\s]+\]\s*$/, '')} <span className="references">[{tip.references.map((ref,i)=><React.Fragment key={ref.number}>{i>0?', ':''}<a href={ref.url} target="_blank" rel="noopener noreferrer" aria-label={`${tip.label}, source ${ref.number} (${new URL(ref.url).hostname}), opens in a new tab`}>{ref.number}</a></React.Fragment>)}]</span></>;
+}
 function readRoute(){
  const params=new URLSearchParams(location.hash.slice(1));
  return {topic:params.get('topic')==='sleep'?'sleep':'stress',audience:params.get('audience')==='care_recipient'?'care_recipient':'caregiver'};
@@ -24,7 +28,7 @@ export default function App(){
    </div>
    <p className="audience-caption">{route.audience==='care_recipient'?'Supporting a loved one with memory challenges.':'Everyday tips for your own well-being.'}</p>
    <div className="sections" key={`${route.topic}-${route.audience}`}>
-    {sections.map((section,i)=><section className="tip-section" key={section.title} aria-labelledby={`section-${i}`}><h2 id={`section-${i}`}>{section.title}</h2><ul>{section.tips.map((tip,j)=><li key={j}>{tip.label&&<strong>{tip.label}: </strong>}{tip.text}</li>)}</ul></section>)}
+    {sections.map((section,i)=><section className="tip-section" key={section.title} aria-labelledby={`section-${i}`}><h2 id={`section-${i}`}>{section.title}</h2><ul>{section.tips.map((tip,j)=><li key={j}>{tip.label&&<strong>{tip.label}: </strong>}<TipText tip={tip}/></li>)}</ul></section>)}
    </div>
   </main>
  </>;

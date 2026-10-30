@@ -15,18 +15,16 @@ Before submitting changes, run `npm test` and `npm run build`. Build output is `
 
 ## Editing content
 
-The site currently displays 18 FAQs. Stress has ten (five per audience), Sleep has three loved-one questions. Eight questions have optional video links, using five distinct videos.
+The current website has only Stress and Sleep tips pages, each with For My Loved One / For Myself switching. All tips are visible immediately. No videos, FAQ questions, accordions, or category landing page.
 
-- `src/data/faqs.json`: preserve all 44 original records. This is the archive; only selected records appear online.
-- `src/data/pilot.json`: `ids` selects the 13 visible original records; `videos` maps FAQ IDs to optional videos. To restore an archived FAQ, add its existing ID here.
-- `src/data/resource-faqs.json`: five new source-derived Stress FAQs; all records here appear online. Use unique IDs, existing category/audience values, question, answerText, sourceUrl, origin and reviewStatus.
-- `src/App.jsx`: navigation, filtering and rendering.
-- `src/App.css`: styling and responsive layout.
-- `content/PILOT.md`: current decisions and historical context.
+- `src/data/self-tips.json`: the user's complete supplied text: 11 Stress items (including the help paragraph) and 11 Sleep items. Preserve wording, section order, numbers and reference markers. The numbered source bibliography has not been supplied; do not invent it.
+- `src/data/loved-one-tips.json`: original loved-one Stress/Sleep answers converted to tip lists without questions. sourceId records provenance.
+- `src/App.jsx`: direct topic routes, audience switching and list rendering.
+- `src/App.css`: responsive layout and text sizing.
 
-Videos are optional. Verify the topic and actual YouTube watch URL; retain the provider page as `resourceUrl`. Unmatched questions have no video section. Do not invent new medical advice. Source-derived answers retain attribution and `needs_clinical_review` status.
+Old FAQ data, pilot selection and video mappings are archived and NOT imported by the current application. They are not the active editing source. See content/TIPS.md.
 
-The original archive has a documented swallowing-advice exception (faq-25). `content/source-rows.json` contains original unreviewed wording and is not imported by the app. Older restoration documents describe historical states.
+Two direct links: `/#topic=stress` and `/#topic=sleep` default to For Myself. Add `&audience=care_recipient` for the loved-one view. Existing stress/sleep links with explicit audiences remain supported.
 
 ## Team workflow
 

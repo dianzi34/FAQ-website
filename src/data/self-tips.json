@@ -1,0 +1,40 @@
+{
+  "stress": [
+    {"title":"Physical and Lifestyle Tips","tips":[
+      {"label":"Exercise daily","text":"Go for a brisk walk, run, or do housework to release endorphins and reduce tension. [1, 2]"},
+      {"label":"Prioritize sleep","text":"Aim for 7 to 9 hours of nightly sleep to allow your body to recover from daily demands. [1, 2]"},
+      {"label":"Eat a balanced diet","text":"Focus on fruits, vegetables, and whole grains while avoiding excess caffeine, alcohol, and refined sugar. [1, 2]"},
+      {"label":"Engage your senses","text":"Step outside, listen to calming music, hold a warm blanket, or use deep breathing and meditation apps like Calm or Mindfulness Coach. [1, 2, 3]"},
+      {"label":"Practice box breathing","text":"Inhale for 4 seconds, hold for 4 seconds, exhale for 4 seconds, and hold for 4 seconds to lower your heart rate. [1]"}
+    ]},
+    {"title":"Mental and Behavioral Strategies","tips":[
+      {"label":"Reframe negative thoughts","text":"Challenge catastrophic thinking or perfectionism, and replace harsh self-talk with realistic expectations."},
+      {"label":"Take control of what you can","text":"Break large problems down into small, manageable tasks or set a 20-minute timer to focus on a single action."},
+      {"label":"Set boundaries","text":"Learn to say \"no\" to non-essential commitments and protect personal time (\"me time\") away from work."},
+      {"label":"Connect with others","text":"Talk through your troubles with a trusted friend, family member, or colleague to build a support network."},
+      {"label":"Limit media intake","text":"Cut back on checking the news or scrolling social media when it triggers anxiety. [1, 2, 3, 4, 5, 6, 7, 8]"}
+    ]},
+    {"title":"When to Seek Help","tips":[
+      {"text":"If stress feels overwhelming, persists for a long time, or interferes with your daily responsibilities, consult a primary care physician, a counselor, or a mental health provider for guidance. [1, 2, 3]"}
+    ]}
+  ],
+  "sleep": [
+    {"title":"Schedule and Routine","tips":[
+      {"label":"Stick to a schedule","text":"Go to bed and wake up at the same time every day, including on weekends. [1]"},
+      {"label":"Wind down","text":"Spend 30 to 60 minutes before bed doing calming activities like reading, stretching, or taking a warm bath. [1, 2]"},
+      {"label":"Turn off screens","text":"Avoid phones, tablets, computers, and TVs at least 30 to 60 minutes before bedtime to prevent blue light from blocking melatonin. [1, 2]"},
+      {"label":"The 20-minute rule","text":"If you cannot fall asleep after 20 minutes, get out of bed and move to another room to do a quiet activity until you feel sleepy. [1]"}
+    ]},
+    {"title":"Environment","tips":[
+      {"label":"Keep it cool and dark","text":"Set your bedroom temperature to a cool setting (around 65°F–68°F) and use blackout curtains, an eye mask, or a sleep mask."},
+      {"label":"Block out noise","text":"Use earplugs or a white noise machine if your sleeping space is noisy."},
+      {"label":"Reserve the bed","text":"Use your bed only for sleep and intimacy; avoid working or watching TV in bed. [1, 2, 3, 4, 5]"}
+    ]},
+    {"title":"Diet and Lifestyle","tips":[
+      {"label":"Limit stimulants and alcohol","text":"Avoid caffeine and nicotine in the afternoon and evening. Do not use alcohol close to bedtime, as it disrupts deep sleep cycles."},
+      {"label":"Watch heavy meals","text":"Avoid large or greasy meals right before bed, though a light snack is fine if you are hungry."},
+      {"label":"Exercise regularly","text":"Get physical activity during the day, but finish vigorous workouts a few hours before bedtime."},
+      {"label":"Manage daytime naps","text":"Keep naps short (under 20–30 minutes) and avoid napping late in the afternoon. [1, 2, 3, 4, 5]"}
+    ]}
+  ]
+}

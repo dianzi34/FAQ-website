@@ -1,0 +1,46 @@
+{
+  "stress": [
+    {
+      "title": "Calm and Reassurance",
+      "tips": [
+        {
+          "label": "Offer reassurance",
+          "text": "Give them space, reassure them, and distract them with a simple activity like looking at a photo album. Try to maintain a calm environment.",
+          "sourceId": "faq-04"
+        },
+        {
+          "label": "Create a calm environment",
+          "text": "Reduce noise and clutter, maintain routines, and use gentle reassurance. Distract them with activities or food if they seem upset.",
+          "sourceId": "faq-07"
+        },
+        {
+          "label": "Keep familiar surroundings",
+          "text": "Respect their space and keep familiar objects around. Build quiet times into the day to reduce stress and anxiety.",
+          "sourceId": "faq-10"
+        }
+      ]
+    }
+  ],
+  "sleep": [
+    {
+      "title": "Routine and Rest",
+      "tips": [
+        {
+          "label": "Keep evenings calm",
+          "text": "This is known as sundowning, often caused by exhaustion or confusion over day and night. Encourage physical activity during the day and keep the evening calm and quiet.",
+          "sourceId": "faq-28"
+        },
+        {
+          "label": "Support a sleep routine",
+          "text": "Maintain a routine, limit naps during the day, and avoid caffeine or sugary foods. Ensure the room is dark and safe for them to sleep.",
+          "sourceId": "faq-29"
+        },
+        {
+          "label": "Make the bedroom comfortable",
+          "text": "Encourage physical activity during the day and keep the evenings calm. Make sure the bedroom is safe and comfortable with nightlights if needed.",
+          "sourceId": "faq-30"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "ids": [
+    "faq-01",
+    "faq-05",
+    "faq-10",
+    "faq-22",
+    "faq-28",
+    "faq-29",
+    "faq-30",
+    "faq-32",
+    "faq-35",
+    "faq-37",
+    "faq-04",
+    "faq-07",
+    "faq-34"
+  ],
+  "videos": {
+    "faq-01": {
+      "title": "Communication Principles",
+      "url": "https://www.youtube.com/watch?v=zv2zGAeJijQ",
+      "resourceUrl": "https://www.caregiver.org/resource/s1c2m4-communication-principles/"
+    },
+    "faq-05": {
+      "title": "Preventing Difficult Behavior Related to ADLs",
+      "url": "https://www.youtube.com/watch?v=twYtrx5vjOw",
+      "resourceUrl": "https://www.caregiver.org/resource/s1c3m4-preventing-difficult-behavior-related-to-adls/"
+    },
+    "faq-22": {
+      "title": "Bathroom Safety",
+      "url": "https://www.youtube.com/watch?v=KYcDW63Wreo",
+      "resourceUrl": "https://www.caregiver.org/resource/safe-home-4-bathroom-safety/"
+    },
+    "faq-35": {
+      "title": "Managing Caregiver Stress (webinar)",
+      "url": "https://www.youtube.com/watch?v=exzbyCak8QQ",
+      "resourceUrl": "https://www.caregiver.org/resource/managing-caregiver-stress-webinar/"
+    },
+    "faq-37": {
+      "title": "Managing Caregiver Stress (webinar)",
+      "url": "https://www.youtube.com/watch?v=exzbyCak8QQ",
+      "resourceUrl": "https://www.caregiver.org/resource/managing-caregiver-stress-webinar/"
+    },
+    "faq-10": {
+      "title": "The ABC Method for Understanding and Modifying Dementia Behavior",
+      "url": "https://www.youtube.com/watch?v=N7yeEyfYCm8",
+      "resourceUrl": "https://www.caregiver.org/resource/s1c3m3-the-abc-method-for-understanding-and-modifying-dementia-behavior/"
+    },
+    "faq-32": {
+      "title": "Managing Caregiver Stress (webinar)",
+      "url": "https://www.youtube.com/watch?v=exzbyCak8QQ",
+      "resourceUrl": "https://www.caregiver.org/resource/managing-caregiver-stress-webinar/"
+    },
+    "stress-resource-01": {
+      "title": "The ABC Method for Understanding and Modifying Dementia Behavior",
+      "url": "https://www.youtube.com/watch?v=N7yeEyfYCm8",
+      "resourceUrl": "https://www.caregiver.org/resource/s1c3m3-the-abc-method-for-understanding-and-modifying-dementia-behavior/"
+    }
+  }
+}

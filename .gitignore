@@ -2,3 +2,8 @@ node_modules/
 dist/
 .openai/*.tar.gz
 .DS_Store
+
+.env
+.env.*
+!.env.example
+.wrangler/

@@ -1,54 +1,49 @@
 # Caregiving FAQs
 
-An accessible English-language caregiving FAQ MVP, implemented from `faq_prd.pdf` and the supplied NEU FAQ table. React + Vite + plain CSS, entirely static. No accounts, backend, database, tracking, or API calls in core interactions.
+React + Vite static website. Production: https://caregiving-faqs.pages.dev/
 
-## Run locally
+## Local development
 
-Node.js 20.19+ or 22+ recommended.
+Use Node.js 22 LTS and npm. No application credentials are required.
 
 ```sh
-npm install
+npm ci
 npm run dev
 ```
 
-Open the URL printed by Vite. Build using `npm run build`; output is `dist/`. `npm run preview` serves the production build. `npm test` validates content coverage, source traceability, and review metadata.
+Before submitting changes, run `npm test` and `npm run build`. Build output is `dist/`; `npm run preview` serves the build locally.
 
-## MVP behavior
+## Editing content
 
-- Six topic categories; Stress and Sleep switch between loved-one and caregiver perspectives.
-- Direct topic browsing, native keyboard-accessible FAQ accordions, empty states, and a clear return path. Search has been removed to simplify navigation.
-- A− / A+ adjust the root text size from 18 to 24px. Browser zoom remains available.
-- Responsive layouts, visible focus rings, a skip link, and 44px primary touch targets.
-- Topic/perspective URLs use hash routing, including browser Back/Forward and refresh.
-- Casual tips wording; no branded footer or informational subpages. Per-answer review labels and relevant safety notes remain.
+The site currently displays 18 FAQs. Stress has ten (five per audience), Sleep has three loved-one questions. Eight questions have optional video links, using five distinct videos.
 
-## Edit content
+- `src/data/faqs.json`: preserve all 44 original records. This is the archive; only selected records appear online.
+- `src/data/pilot.json`: `ids` selects the 13 visible original records; `videos` maps FAQ IDs to optional videos. To restore an archived FAQ, add its existing ID here.
+- `src/data/resource-faqs.json`: five new source-derived Stress FAQs; all records here appear online. Use unique IDs, existing category/audience values, question, answerText, sourceUrl, origin and reviewStatus.
+- `src/App.jsx`: navigation, filtering and rendering.
+- `src/App.css`: styling and responsive layout.
+- `content/PILOT.md`: current decisions and historical context.
 
-Edit `src/data/faqs.json`, not React components. Every entry requires a stable unique `id`, one of the six existing `category` strings, `audience` (`caregiver` or `care_recipient`), `question`, 2–4 short `steps`, `note`, `sourceUrl` (URL or null), and `reviewStatus`. Keep draft guidance marked `needs_clinical_review`. This MVP deliberately labels every displayed answer as a draft: a future reviewed release must implement and verify explicit approval handling before changing that label.
+Videos are optional. Verify the topic and actual YouTube watch URL; retain the provider page as `resourceUrl`. Unmatched questions have no video section. Do not invent new medical advice. Source-derived answers retain attribution and `needs_clinical_review` status.
 
-Add a new JSON object to add a question; edit its fields to update it; remove the object to remove it. Run `npm test` and `npm run build` after editing. Existing questions preserve source row references in `sourceRows`. `origin` distinguishes the supplied table from new drafts. Avoid collecting any personal health information.
+The original archive has a documented swallowing-advice exception (faq-25). `content/source-rows.json` contains original unreviewed wording and is not imported by the app. Older restoration documents describe historical states.
 
-## Content provenance and review
+## Team workflow
 
-`content/source-rows.json` retains all 44 original table rows for editorial comparison. It is **not imported by the application**; it contains original unreviewed and potentially unsafe wording. The current site has 44 entries corresponding to the 44 original CSV questions. Stress contains 3 loved-one and 2 caregiver questions; Sleep contains 3 loved-one questions and no caregiver questions. Both perspective controls remain visible. No generated FAQ drafts remain. All questions and answers match the supplied table except the previously documented swallowing exception (faq-25). Other categories are unchanged by the Stress/Sleep replacement. Prior restoration reports, baseline snapshots and the Excel maintenance workbook are historical. See `content/ORIGINAL_ONLY.md` for current scope.
+1. Clone the repository and run `npm ci`.
+2. Create a branch, for example `git switch -c content/stress-update`.
+3. Edit and preview locally.
+4. Run `npm test` and `npm run build`. When an approved content selection changes, update the selection assertions and this README together.
+5. Push the branch and open a pull request for teammate review.
 
-Sources were checked on 2026-10-22. Source links indicate reference guidance, not clinical approval or endorsement. All entries need qualified review before a public health-information launch. The MVP is privately hosted through Sites for review.
+Do not commit node_modules, dist, .env files, tokens or deployment credentials.
 
-## Static deployment
+## Publishing
 
-### Cloudflare Pages
+The current Cloudflare Pages project `caregiving-faqs` uses Direct Upload. A Git push does NOT automatically update the live website; repository-based deployment has not been configured.
 
-1. Push this `care-together` project to a GitHub repository.
-2. In Cloudflare Pages, connect that repository and choose the production branch.
-3. If the repository contains this project as a subfolder, set the root directory to `care-together`; otherwise use the repository root.
-4. Set build command to `npm run build` and output directory to `dist`.
-5. Use a supported Node.js version, deploy, then open the `pages.dev` URL shown in the project dashboard.
-6. Later pushes to the production branch trigger new deployments automatically. No domain purchase is needed.
+Build with `npm run build`, then upload the contents of `dist/` (or a ZIP with index.html and assets/ at its root) as a Production deployment to the existing project. Keep this project to retain the public URL. CI/Wrangler automation can be configured separately with reviewed repository secrets.
 
-### GitHub Pages
+`.openai/hosting.json` belongs to the old ChatGPT Sites host, not current Cloudflare hosting. Do not publish updates to the old host.
 
-Use a GitHub Actions workflow to install with `npm ci`, run `npm run build`, and upload `dist` using the Pages artifact/deploy actions. `base: './'` in `vite.config.js` allows subdirectory hosting. Hash routes do not require server rewrites.
-
-### Sites
-
-The project ID and static directory are recorded in `.openai/hosting.json`. The app remains a portable static bundle; Sites access control is a hosting-level restriction, not an application login feature.
+Direct links use hash routes, for example `/#topic=stress&audience=caregiver` and `/#topic=sleep&audience=care_recipient`. No server rewrite rules are needed.

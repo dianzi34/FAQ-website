@@ -2,6 +2,20 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const faqs=JSON.parse(readFileSync(new URL('../src/data/faqs.json',import.meta.url)));
+test('Stress has ten FAQs split five per audience; original questions and sleep remain available',()=>{
+ const pilot=JSON.parse(readFileSync(new URL('../src/data/pilot.json',import.meta.url)));
+ const added=JSON.parse(readFileSync(new URL('../src/data/resource-faqs.json',import.meta.url)));
+ assert.equal(pilot.ids.length,13);assert.equal(new Set(pilot.ids).size,13);
+ const selected=[...faqs.filter(f=>pilot.ids.includes(f.id)),...added];assert.equal(selected.length,18);
+ assert.equal(new Set(selected.map(f=>f.id)).size,18);
+ for(const audience of ['caregiver','care_recipient'])assert.equal(selected.filter(f=>f.category==='Stress Management'&&f.audience===audience).length,5);
+ for(const f of added){assert.equal(f.origin,'resource_summary');assert.ok(f.answerText);assert.equal(new URL(f.sourceUrl).hostname,'www.caregiver.org');}
+ assert.equal(new Set(selected.map(f=>f.category)).size,6);
+ assert.equal(selected.filter(f=>f.category==='Sleep Management').length,3);
+ assert.equal(Object.keys(pilot.videos).length,8);
+ for(const [id,v] of Object.entries(pilot.videos)){assert.ok(selected.some(f=>f.id===id));assert.equal(new URL(v.url).hostname,'www.youtube.com');assert.match(new URL(v.url).searchParams.get('v'),/^[\w-]{11}$/);assert.equal(new URL(v.resourceUrl).hostname,'www.caregiver.org');assert.ok(v.title);}
+ assert.ok(selected.filter(f=>f.category==='Sleep Management').every(f=>!pilot.videos[f.id]));
+});
 test('six categories, unique IDs and questions, complete draft metadata',()=>{
  assert.equal(new Set(faqs.map(f=>f.category)).size,6);
  assert.equal(new Set(faqs.map(f=>f.id)).size,faqs.length);

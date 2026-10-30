@@ -5,3 +5,11 @@
 @media(max-width:600px){.hero{padding:28px 0 22px}.hero h1{font-size:2.1rem}.hero p{font-size:.95rem}.topic-card{min-height:110px;padding:18px;gap:14px}.topic-text{margin-top:0}.topic-arrow{top:calc(50% - 10px)}.topics{margin-bottom:28px}.header-inner{padding:16px 18px}}
 
 .hero{padding-bottom:36px}
+.related-video{margin-top:24px;padding:20px;background:#f2f5ed;border:1px solid #d6dece;border-radius:9px}
+.video-label{font-size:.85rem;color:var(--muted);margin-bottom:8px}
+.video-title{font-size:1.05rem;font-weight:600;line-height:1.45;margin-bottom:6px}
+.video-provider{font-size:.8rem;color:var(--muted);margin-bottom:16px}
+.video-link{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 18px;border-radius:7px;background:#466653;color:white;text-decoration:none;font-weight:600}
+.video-link:hover{background:#304e35}
+.video-hint{font-size:.75rem;color:var(--muted);margin:10px 0 0}
+@media(max-width:600px){.related-video{padding:16px}.video-link{width:100%}}

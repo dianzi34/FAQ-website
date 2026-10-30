@@ -2,6 +2,18 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const read=name=>JSON.parse(readFileSync(new URL('../src/data/'+name,import.meta.url)));
+test('each citation has its own ordered direct URL, without mail tracking',()=>{
+ const data=read('self-tips.json');
+ for(const [topic,count] of [['sleep',16],['stress',21]]){
+  const tips=data[topic].flatMap(s=>s.tips);assert.equal(tips.flatMap(t=>t.references||[]).length,count);
+  for(const tip of tips){const match=tip.text.match(/\[([\d,\s]+)\]\s*$/);if(!match)continue;
+   assert.deepEqual(tip.references.map(r=>r.number),match[1].split(',').map(Number));
+   for(const ref of tip.references){const url=new URL(ref.url);assert.equal(url.protocol,'https:');assert.ok(!url.hostname.includes('safelinks'));assert.ok(!url.searchParams.has('sdata'));}
+  }
+ }
+ const sleep=data.sleep[0].tips;assert.notEqual(sleep[0].references[0].url,sleep[1].references[0].url);
+ assert.equal(new URL(sleep[1].references[0].url).searchParams.get('t'),'33');
+});
 test('all supplied self tips and section ordering are retained',()=>{
  const data=read('self-tips.json');
  assert.deepEqual(data.stress.map(s=>s.title),['Physical and Lifestyle Tips','Mental and Behavioral Strategies','When to Seek Help']);

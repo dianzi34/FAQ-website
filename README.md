@@ -17,7 +17,7 @@ Before submitting changes, run `npm test` and `npm run build`. Build output is `
 
 The current website has only Stress and Sleep tips pages, each with For My Loved One / For Myself switching. All tips are visible immediately. No videos, FAQ questions, accordions, or category landing page.
 
-- `src/data/self-tips.json`: the user's complete supplied text: 11 Stress items (including the help paragraph) and 11 Sleep items. Preserve wording, section order, numbers and reference markers. Sleep references now use per-tip `references` arrays (number + original URL). Stress source URLs are still pending; do not invent them.
+- `src/data/self-tips.json`: the user's complete supplied text: 11 Stress items (including the help paragraph) and 11 Sleep items. Preserve wording, section order, numbers and reference markers. Sleep references now use per-tip `references` arrays (number + original URL). Both Stress and Sleep references use the supplied per-tip URLs; preserve the original destinations and timestamps.
 - `src/data/loved-one-tips.json`: original loved-one Stress/Sleep answers converted to tip lists without questions. sourceId records provenance.
 - `src/App.jsx`: direct topic routes, audience switching and list rendering.
 - `src/App.css`: responsive layout and text sizing.

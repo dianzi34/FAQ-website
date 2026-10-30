@@ -3,7 +3,9 @@ import selfTips from './data/self-tips.json';
 import lovedOneTips from './data/loved-one-tips.json';
 function TipText({tip}){
  if(!tip.references?.length)return tip.text;
- return <>{tip.text.replace(/\s*\[[\d,\s]+\]\s*$/, '')} <span className="references">[{tip.references.map((ref,i)=><React.Fragment key={ref.number}>{i>0?', ':''}<a href={ref.url} target="_blank" rel="noopener noreferrer" aria-label={`${tip.label}, source ${ref.number} (${new URL(ref.url).hostname}), opens in a new tab`}>{ref.number}</a></React.Fragment>)}]</span></>;
+ const text=tip.text.replace(/\s*\[[\d,\s]+\]\s*$/, '');
+ const parts=tip.inlineLink?text.split(tip.inlineLink.text):null;
+ return <>{parts?<>{parts[0]}<a className="inline-source" href={tip.inlineLink.url} target="_blank" rel="noopener noreferrer">{tip.inlineLink.text}</a>{parts[1]}</>:text} <span className="references">[{tip.references.map((ref,i)=><React.Fragment key={ref.number}>{i>0?', ':''}<a href={ref.url} target="_blank" rel="noopener noreferrer" aria-label={`${tip.label||'When to Seek Help'}, source ${ref.number} (${new URL(ref.url).hostname}), opens in a new tab`}>{ref.number}</a></React.Fragment>)}]</span></>;
 }
 function readRoute(){
  const params=new URLSearchParams(location.hash.slice(1));

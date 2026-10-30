@@ -5,23 +5,77 @@
       "tips": [
         {
           "label": "Exercise daily",
-          "text": "Go for a brisk walk, run, or do housework to release endorphins and reduce tension. [1, 2]"
+          "text": "Go for a brisk walk, run, or do housework to release endorphins and reduce tension. [1, 2]",
+          "references": [
+            {
+              "number": 1,
+              "url": "https://www.kappakappagamma.org/stay-connected/mental-health-well-being/stress-management-tips/"
+            },
+            {
+              "number": 2,
+              "url": "https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress-relievers/art-20047257"
+            }
+          ]
         },
         {
           "label": "Prioritize sleep",
-          "text": "Aim for 7 to 9 hours of nightly sleep to allow your body to recover from daily demands. [1, 2]"
+          "text": "Aim for 7 to 9 hours of nightly sleep to allow your body to recover from daily demands. [1, 2]",
+          "references": [
+            {
+              "number": 1,
+              "url": "https://www.youtube.com/shorts/v5xlA2_oIR4"
+            },
+            {
+              "number": 2,
+              "url": "https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress-relievers/art-20047257"
+            }
+          ]
         },
         {
           "label": "Eat a balanced diet",
-          "text": "Focus on fruits, vegetables, and whole grains while avoiding excess caffeine, alcohol, and refined sugar. [1, 2]"
+          "text": "Focus on fruits, vegetables, and whole grains while avoiding excess caffeine, alcohol, and refined sugar. [1, 2]",
+          "references": [
+            {
+              "number": 1,
+              "url": "https://odphp.health.gov/myhealthfinder/health-conditions/heart-health/manage-stress"
+            },
+            {
+              "number": 2,
+              "url": "https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress-relievers/art-20047257"
+            }
+          ]
         },
         {
           "label": "Engage your senses",
-          "text": "Step outside, listen to calming music, hold a warm blanket, or use deep breathing and meditation apps like Calm or Mindfulness Coach. [1, 2, 3]"
+          "text": "Step outside, listen to calming music, hold a warm blanket, or use deep breathing and meditation apps like Calm or Mindfulness Coach. [1, 2, 3]",
+          "references": [
+            {
+              "number": 1,
+              "url": "https://www.cdc.gov/mental-health/living-with/index.html"
+            },
+            {
+              "number": 2,
+              "url": "https://www.kappakappagamma.org/stay-connected/mental-health-well-being/stress-management-tips/"
+            },
+            {
+              "number": 3,
+              "url": "https://med.stanford.edu/news/insights/2025/12/stress-management-coping-skills-and-tools.html"
+            }
+          ],
+          "inlineLink": {
+            "text": "Mindfulness Coach",
+            "url": "https://www.cdc.gov/mental-health/living-with/index.html"
+          }
         },
         {
           "label": "Practice box breathing",
-          "text": "Inhale for 4 seconds, hold for 4 seconds, exhale for 4 seconds, and hold for 4 seconds to lower your heart rate. [1]"
+          "text": "Inhale for 4 seconds, hold for 4 seconds, exhale for 4 seconds, and hold for 4 seconds to lower your heart rate. [1]",
+          "references": [
+            {
+              "number": 1,
+              "url": "https://www.youtube.com/watch?v=1WIHlVZcrzs&vl=en&t=101"
+            }
+          ]
         }
       ]
     },
@@ -46,7 +100,41 @@
         },
         {
           "label": "Limit media intake",
-          "text": "Cut back on checking the news or scrolling social media when it triggers anxiety. [1, 2, 3, 4, 5, 6, 7, 8]"
+          "text": "Cut back on checking the news or scrolling social media when it triggers anxiety. [1, 2, 3, 4, 5, 6, 7, 8]",
+          "references": [
+            {
+              "number": 1,
+              "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/tips-to-reduce-stress/"
+            },
+            {
+              "number": 2,
+              "url": "https://www.apa.org/topics/stress/tips"
+            },
+            {
+              "number": 3,
+              "url": "https://mentalhealth.cornell.edu/self-care/stress-management-strategies"
+            },
+            {
+              "number": 4,
+              "url": "https://www.youtube.com/watch?v=ThajzXvCntQ&t=78"
+            },
+            {
+              "number": 5,
+              "url": "https://www.youtube.com/shorts/3TPfi3t7HcE"
+            },
+            {
+              "number": 6,
+              "url": "https://www.kappakappagamma.org/stay-connected/mental-health-well-being/stress-management-tips/"
+            },
+            {
+              "number": 7,
+              "url": "https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress-relievers/art-20047257"
+            },
+            {
+              "number": 8,
+              "url": "https://odphp.health.gov/myhealthfinder/health-conditions/heart-health/manage-stress"
+            }
+          ]
         }
       ]
     },
@@ -54,7 +142,21 @@
       "title": "When to Seek Help",
       "tips": [
         {
-          "text": "If stress feels overwhelming, persists for a long time, or interferes with your daily responsibilities, consult a primary care physician, a counselor, or a mental health provider for guidance. [1, 2, 3]"
+          "text": "If stress feels overwhelming, persists for a long time, or interferes with your daily responsibilities, consult a primary care physician, a counselor, or a mental health provider for guidance. [1, 2, 3]",
+          "references": [
+            {
+              "number": 1,
+              "url": "https://www.apa.org/topics/stress/tips"
+            },
+            {
+              "number": 2,
+              "url": "https://www.youtube.com/watch?v=ucSn7dZcxiQ&t=11"
+            },
+            {
+              "number": 3,
+              "url": "https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress-relievers/art-20047257"
+            }
+          ]
         }
       ]
     }

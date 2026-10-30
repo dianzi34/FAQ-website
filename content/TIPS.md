@@ -5,3 +5,5 @@ Latest user request supersedes FAQ/video UX and the ten-question cap. Deliver tw
 Host: Cloudflare Pages caregiving-faqs. Repo: dianzi34/FAQ-website. Git pushes do not automatically deploy.
 
 Sleep citations updated from the user-provided URLs: 16 per-tip references. Outlook Safe Links wrappers removed; original destinations and YouTube timestamps retained. Stress references still await URLs.
+
+Stress citations updated from user-provided destinations: 21 numbered references plus the Mindfulness Coach inline link (points to CDC as supplied). All reference mappings are per-tip, not global numbering. Both topics now have supplied URLs.
